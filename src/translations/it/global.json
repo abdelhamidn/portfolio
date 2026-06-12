@@ -1,0 +1,376 @@
+{
+    "backToTop": "Torna in cima",
+    "header": {
+        "navAriaLabel": "Navigazione principale del sito",
+        "links": {
+            "profile": "Chi sono",
+            "home": "Home",
+            "work": "Lavori",
+            "experience": "Esperienza",
+            "tools": "Strumenti",
+            "contact": "Contatti"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "Bandiera dell'Italia",
+                "label": "Lingua"
+            },
+            "theme": {
+                "label": "Tema"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "ar": {
+                    "alt": "Bandiera dell'Arabia Saudita",
+                    "label": "Arabo"
+                },
+                "pt": {
+                    "alt": "Bandiera del Brasile",
+                    "label": "Portoghese"
+                },
+                "he": {
+                    "alt": "Bandiera di Israele",
+                    "label": "Ebraico"
+                },
+                "de": {
+                    "alt": "Bandiera della Germania",
+                    "label": "Tedesco"
+                },
+                "en": {
+                    "alt": "Bandiera degli Stati Uniti",
+                    "label": "Inglese"
+                },
+                "es": {
+                    "alt": "Bandiera della Spagna",
+                    "label": "Spagnolo"
+                },
+                "fr": {
+                    "alt": "Bandiera della Francia",
+                    "label": "Francese"
+                },
+                "it": {
+                    "alt": "Bandiera dell'Italia",
+                    "label": "Italiano"
+                },
+                "zh": {
+                    "alt": "Bandiera della Cina",
+                    "label": "Cinese"
+                },
+                "ru": {
+                    "alt": "Bandiera della Russia",
+                    "label": "Russo"
+                },
+                "ja": {
+                    "alt": "Bandiera del Giappone",
+                    "label": "Giapponese"
+                }
+            },
+            "theme": {
+                "dark": "Scuro",
+                "light": "Chiaro"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "Foto di Abdelhamid"
+                    },
+                    "name": "Abdelhamid NOIRA",
+                    "description": "DevOps Project Manager",
+                    "location": "Casablanca, Marocco",
+                    "socials": {
+                        "linkedin": "Apri LinkedIn in una nuova scheda",
+                        "whatsapp": "Apri WhatsApp in una nuova scheda",
+                        "github": "Apri GitHub in una nuova scheda",
+                        "twitter": "Apri X in una nuova scheda",
+                        "reddit": "Apri Reddit in una nuova scheda"
+                    },
+                    "button": "Parliamo"
+                },
+                "home": {
+                    "title": "DAL SEMPLICE AL",
+                    "strong": "PREZIOSO",
+                    "description": "Dalla gestione di progetti all'ingegneria di soluzioni, do il meglio quando la pressione sale e le scadenze sono strette, mantenendo una visione a 360° su tutti gli aspetti.",
+                    "numbers": {
+                        "years": "ANNO DI ESPERIENZA",
+                        "projects": "PROGETTI COMPLETATI",
+                        "products": "PRODOTTI LANCIATI"
+                    },
+                    "buttons": {
+                        "contact": "Parliamo",
+                        "work": "I miei lavori"
+                    }
+                },
+                "work": {
+                    "title": "DALL'IDEA ALLA",
+                    "strong": "PRODUZIONE",
+                    "products": {
+                        "notehub": {
+                            "alt": "Foto del social network NoteHub",
+                            "name": "NoteHub",
+                            "description": "Social Network",
+                            "status": "Live"
+                        },
+                        "mtech": {
+                            "alt": "Screenshot del progetto MTech",
+                            "name": "MTech",
+                            "description": "Piattaforma",
+                            "status": "Live"
+                        },
+                        "mncloud": {
+                            "alt": "Screenshot del progetto MNCloud",
+                            "name": "MNCloud",
+                            "description": "Piattaforma Cloud",
+                            "status": "Live"
+                        },
+                        "dqplugin": {
+                            "alt": "Screenshot del progetto DQ-Plugin",
+                            "name": "DQ-Plugin",
+                            "description": "Plugin",
+                            "status": "Live"
+                        },
+                        "sysmed": {
+                            "alt": "Screenshot del progetto SysMed",
+                            "name": "SysMed",
+                            "description": "Piattaforma Medica",
+                            "status": "Live"
+                        },
+                        "secdojo": {
+                            "alt": "Screenshot del progetto SecDojo",
+                            "name": "SecDojo",
+                            "description": "Piattaforma",
+                            "status": "Live"
+                        },
+                        "homesense": {
+                            "alt": "Screenshot del progetto HomeSense",
+                            "name": "HomeSense",
+                            "description": "Casa Intelligente",
+                            "status": "Live"
+                        },
+                        "frmje": {
+                            "alt": "Screenshot del progetto FRMJE",
+                            "name": "FRMJE",
+                            "description": "Piattaforma",
+                            "status": "Live"
+                        },
+                        "bbcr": {
+                            "alt": "Screenshot del progetto BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "Call Center",
+                            "status": "Live"
+                        },
+                        "kenzmedia": {
+                            "alt": "Screenshot del progetto KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "Piattaforma Media",
+                            "status": "Live"
+                        },
+                        "viadis": {
+                            "alt": "Screenshot del progetto Viadis",
+                            "name": "Viadis",
+                            "description": "Piattaforma",
+                            "status": "Live"
+                        },
+                        "anom": {
+                            "alt": "Screenshot del progetto ANØM",
+                            "name": "ANØM",
+                            "description": "Piattaforma AI",
+                            "status": "Live"
+                        },
+                        "modezoe": {
+                            "alt": "Screenshot del progetto Modezoe",
+                            "name": "Modezoe",
+                            "description": "Piattaforma",
+                            "status": "Live"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "ESPERIENZA",
+                    "strong": "PROFESSIONALE",
+                    "mos": "mesi",
+                    "keySkills": "Competenze chiave",
+                    "companies": {
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "DevOps Project Manager · Tempo pieno",
+                            "period": "Nov 2025 - Presente"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "I.T. Operations Project Manager · CDD",
+                            "period": "Mag 2025 - Ott 2025",
+                            "bullets": [
+                                "Progettato una soluzione IT unificata approvata dalla direzione per ottimizzare l'efficienza operativa del contact center.",
+                                "Automatizzato i flussi di lavoro e i processi tra i team per aumentare misurabilmente la produttività."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "DevOps Engineer · Stage ANAPEC",
+                            "period": "Nov 2024 - Apr 2025",
+                            "bullets": [
+                                "Migrato l'architettura di Deskea da Docker a Kubernetes con deployment blue-green e canary e CI/CD GitLab automatizzato su AWS.",
+                                "Deployato monitoraggio in tempo reale e gestione automatizzata dei segreti per proteggere e scalare l'infrastruttura di produzione."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "DevOps Engineer · Stage di Fine Anno (PFE)",
+                            "period": "Feb 2024 - Lug 2024",
+                            "bullets": [
+                                "Ottenuto $100K di finanziamento dal GCP Cloud Program presentando il progetto PFE in un video promozionale ufficiale di Google.",
+                                "Costruito da zero un'estensione browser cross-browser AI-powered full-stack, automatizzando scraping, traduzione e riassunto in un'interfaccia chatbot.",
+                                "Architettato un sistema di notifiche in tempo reale con Apache Kafka e ricerca cloud dinamica con Apache Solr, integrati su GCP e Azure.",
+                                "Guidato la R&D delle estensioni Chrome — producendo documentazione tecnica e formazione del team sulle best practice."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "DevOps Engineer · Apprendistato",
+                            "period": "Feb 2023 - Lug 2023",
+                            "bullets": [
+                                "Costruito una piattaforma automatizzata di deployment cloud e penetration testing per l'analisi di scenari di violazione usando Terraform, Ansible e Kubernetes.",
+                                "Integrato OWASP ZAP, Metasploit e ELK Stack per una valutazione completa delle vulnerabilità e monitoraggio della sicurezza in tempo reale."
+                            ]
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "STRUMENTI",
+                    "strong": "PRINCIPALI",
+                    "items": {
+                        "java": { "name": "Java", "description": "Linguaggio di programmazione" },
+                        "spring": { "name": "Spring", "description": "Framework Java" },
+                        "docker": { "name": "Docker", "description": "Piattaforma container" },
+                        "kubernetes": { "name": "Kubernetes", "description": "Orchestrazione container" },
+                        "ansible": { "name": "Ansible", "description": "Automazione configurazione" },
+                        "terraform": { "name": "Terraform", "description": "Infrastructure as Code" },
+                        "typescript": { "name": "TypeScript", "description": "Linguaggio di programmazione" },
+                        "reactjs": { "name": "React.js", "description": "Libreria JavaScript" },
+                        "nextjs": { "name": "Next.js", "description": "Framework React" },
+                        "postgres": { "name": "PostgreSQL", "description": "Database" },
+                        "supabase": { "name": "Supabase", "description": "Piattaforma storage" },
+                        "flyio": { "name": "Fly.io", "description": "Piattaforma hosting" },
+                        "vercel": { "name": "Vercel", "description": "Piattaforma hosting" },
+                        "git": { "name": "Git", "description": "Controllo versione" },
+                        "github": { "name": "GitHub", "description": "Hosting codice" },
+                        "gitlab": { "name": "GitLab", "description": "Piattaforma DevOps" },
+                        "jenkins": { "name": "Jenkins", "description": "Automazione CI/CD" },
+                        "azure": { "name": "Azure", "description": "Piattaforma cloud" },
+                        "aws": { "name": "AWS", "description": "Piattaforma cloud" },
+                        "gcp": { "name": "GCP", "description": "Piattaforma cloud" },
+                        "grafana": { "name": "Grafana", "description": "Monitoraggio e analytics" },
+                        "prometheus": { "name": "Prometheus", "description": "Metriche e alerting" },
+                        "jira": { "name": "Jira", "description": "Gestione progetti" },
+                        "confluence": { "name": "Confluence", "description": "Documentazione team" },
+                        "superset": { "name": "Apache Superset", "description": "Visualizzazione dati" },
+                        "powerbi": { "name": "Power BI", "description": "Business intelligence" },
+                        "odoo": { "name": "Odoo", "description": "ERP open-source" },
+                        "salesforce": { "name": "Salesforce", "description": "Piattaforma CRM" },
+                        "python": { "name": "Python", "description": "Linguaggio general-purpose" },
+                        "csharp": { "name": "C#", "description": "Linguaggio Microsoft" },
+                        "flutter": { "name": "Flutter", "description": "UI toolkit cross-platform" },
+                        "reactnative": { "name": "React Native", "description": "Mobile cross-platform" },
+                        "vault": { "name": "HashiCorp Vault", "description": "Gestione segreti" },
+                        "kafka": { "name": "Apache Kafka", "description": "Piattaforma event streaming" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "Message broker" },
+                        "postman": { "name": "Postman", "description": "Strumento test API" },
+                        "selenium": { "name": "Selenium", "description": "Automazione browser" },
+                        "linux": { "name": "Linux", "description": "OS open-source" },
+                        "bash": { "name": "Bash", "description": "Scripting shell" },
+                        "trello": { "name": "Trello", "description": "Kanban board" },
+                        "notion": { "name": "Notion", "description": "Documenti e wiki" }
+                    }
+                },
+                "contact": {
+                    "title": "LAVORIAMO",
+                    "strong": "INSIEME",
+                    "form": {
+                        "legend": "Contatto",
+                        "name": {
+                            "label": "Nome",
+                            "placeholder": "Il tuo nome"
+                        },
+                        "email": {
+                            "label": "Email",
+                            "placeholder": "tua@email.com"
+                        },
+                        "message": {
+                            "label": "Messaggio",
+                            "placeholder": "Il tuo messaggio"
+                        },
+                        "button": {
+                            "text": "Invia"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "Prodotti",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "Social Network",
+                "description": "NoteHub è una piattaforma open-source che permette agli utenti di creare, organizzare e condividere note in formato .txt. Progettata con focus sulla semplicità e usabilità, è facile da usare, intuitiva e aperta ai contributi della community.",
+                "view": "Vedi Live",
+                "navAriaLabel": "Link esterni per il prodotto",
+                "roles": {
+                    "ulAriaLabel": "Lista dei ruoli e responsabilità del progetto NoteHub",
+                    "branding": {
+                        "title": "Branding",
+                        "description": "Responsabile della progettazione del logo, della definizione della strategia del brand e dello sviluppo dell'identità visiva del progetto"
+                    },
+                    "development": {
+                        "title": "Sviluppo",
+                        "description": "Lavoro sulla costruzione dell'interfaccia interattiva e dinamica, applicando codice pulito e best practice di sviluppo"
+                    },
+                    "storage": {
+                        "title": "Storage",
+                        "description": "Modellazione del database e integrazione di sistemi di storage per le note"
+                    },
+                    "security": {
+                        "title": "Sicurezza",
+                        "description": "Implementato autenticazione, cifratura e pratiche di protezione dei dati"
+                    },
+                    "messaging": {
+                        "title": "Messaggistica",
+                        "description": "Configurato e implementato il flusso di email transazionali"
+                    },
+                    "deploy": {
+                        "title": "Deploy",
+                        "description": "Configurato la pipeline di deployment continuo e monitorato l'applicazione in produzione"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "Panoramica del social network NoteHub"
+                    },
+                    "ulAriaLabel": "Galleria immagini delle schermate del prodotto",
+                    "1": { "alt": "Schermata home di NoteHub" },
+                    "2": { "alt": "Pagina profilo utente in NoteHub" },
+                    "3": { "alt": "Feed utente con note in NoteHub" },
+                    "4": { "alt": "Schermata notifiche utente in NoteHub" },
+                    "5": { "alt": "Interfaccia NoteHub con personalizzazione colore primario" }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
+        },
+        "tech": {
+            "text": "Tutti i diritti",
+            "name": "riservati"
+        }
+    },
+    "notFound": "Percorso non valido."
+}

@@ -7,6 +7,7 @@
             "home": "Accueil",
             "work": "Travail",
             "experience": "Expérience",
+            "education": "Formation",
             "tools": "Outils",
             "contact": "Contact"
         }
@@ -23,29 +24,33 @@
         },
         "dropdowns": {
             "language": {
-                "pt": {
-                    "alt": "Drapeau du Brésil",
-                    "label": "Portugais"
+                "ar": {
+                    "alt": "Drapeau d'Arabie Saoudite",
+                    "label": "Arabe"
                 },
-                "he": {
-                    "alt": "Drapeau d'Israël",
-                    "label": "Hébreu"
+                "en": {
+                    "alt": "Drapeau des États-Unis",
+                    "label": "Anglais"
+                },
+                "fr": {
+                    "alt": "Drapeau de France",
+                    "label": "Français"
                 },
                 "de": {
                     "alt": "Drapeau d'Allemagne",
                     "label": "Allemand"
                 },
-                "en": {
-                    "alt": "Drapeau du Royaume-Uni/USA",
-                    "label": "Anglais"
-                },
                 "es": {
                     "alt": "Drapeau d'Espagne",
                     "label": "Espagnol"
                 },
-                "fr": {
-                    "alt": "Drapeau de France",
-                    "label": "Français"
+                "zh": {
+                    "alt": "Drapeau de Chine",
+                    "label": "Chinois"
+                },
+                "he": {
+                    "alt": "Drapeau d'Israël",
+                    "label": "Hébreu"
                 }
             },
             "theme": {
@@ -59,22 +64,24 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "Photo de Lucas"
+                        "alt": "Photo d'Abdelhamid"
                     },
-                    "name": "Abdelhamid Noira",
+                    "name": "Abdelhamid NOIRA",
                     "description": "Chef de Projet DevOps",
                     "location": "Casablanca, Maroc",
                     "socials": {
                         "linkedin": "Ouvrir LinkedIn dans un nouvel onglet",
                         "whatsapp": "Ouvrir WhatsApp dans un nouvel onglet",
-                        "github": "Ouvrir GitHub dans un nouvel onglet"
+                        "github": "Ouvrir GitHub dans un nouvel onglet",
+                        "twitter": "Ouvrir X dans un nouvel onglet",
+                        "reddit": "Ouvrir Reddit dans un nouvel onglet"
                     },
                     "button": "On discute ?"
                 },
                 "home": {
                     "title": "Du simple",
                     "strong": "à l'essentiel",
-                    "description": "Je conçois des interfaces intuitives et fonctionnelles qui apportent une vraie valeur au produit.",
+                    "description": "Aguerri en architecture cloud, DevOps et pilotage de projets. Je conçois des systèmes robustes, dirige des équipes pluridisciplinaires et livre avec précision dans les conditions les plus exigeantes.",
                     "numbers": {
                         "years": "années d'expérience",
                         "projects": "projets terminés",
@@ -86,26 +93,165 @@
                     }
                 },
                 "work": {
-                    "title": "Les produits",
-                    "strong": "les plus récents",
+                    "title": "De l'idée",
+                    "strong": "à la production",
                     "products": {
                         "notehub": {
                             "alt": "Capture d'écran du réseau social NoteHub",
                             "name": "NoteHub",
                             "description": "Réseau social",
                             "status": "En ligne"
+                        },
+                        "mtech": {
+                            "alt": "Capture d'écran du projet MTech",
+                            "name": "MTech",
+                            "description": "Chatbots RAG multimodaux",
+                            "status": "En ligne"
+                        },
+                        "mncloud": {
+                            "alt": "Capture d'écran du projet MNCloud",
+                            "name": "MNCloud",
+                            "description": "Cloud privé personnel",
+                            "status": "En ligne"
+                        },
+                        "dqplugin": {
+                            "alt": "Capture d'écran du projet DeepLinq Plugin",
+                            "name": "DeepLinq Plugin",
+                            "description": "Extension IA multi-navigateurs",
+                            "status": "En ligne"
+                        },
+                        "sysmed": {
+                            "alt": "Capture d'écran du projet SysMed",
+                            "name": "SysMed",
+                            "description": "App santé multi-plateforme",
+                            "status": "En ligne"
+                        },
+                        "secdojo": {
+                            "alt": "Capture d'écran du projet SecDojo",
+                            "name": "SecDojo",
+                            "description": "Plateforme cybersécurité",
+                            "status": "En ligne"
+                        },
+                        "homesense": {
+                            "alt": "Capture d'écran du projet HomeSense",
+                            "name": "HomeSense",
+                            "description": "Vitrine maison connectée",
+                            "status": "En ligne"
+                        },
+                        "frmje": {
+                            "alt": "Capture d'écran du projet FRMJE",
+                            "name": "FRMJE",
+                            "description": "Site vitrine WordPress",
+                            "status": "En ligne"
+                        },
+                        "bbcr": {
+                            "alt": "Capture d'écran du projet BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "Vitrine centre d'appels",
+                            "status": "En ligne"
+                        },
+                        "kenzmedia": {
+                            "alt": "Capture d'écran du projet KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "Vitrine marketing digital",
+                            "status": "En ligne"
+                        },
+                        "viadis": {
+                            "alt": "Capture d'écran du projet Viadis",
+                            "name": "Viadis",
+                            "description": "Plateforme e-commerce",
+                            "status": "En ligne"
+                        },
+                        "anom": {
+                            "alt": "Capture d'écran du projet ANØM",
+                            "name": "ANØM",
+                            "description": "Univers d'agents IA",
+                            "status": "En ligne"
+                        },
+                        "deskea": {
+                            "alt": "Screenshot de la plateforme Deskea",
+                            "name": "Deskea",
+                            "description": "Plateforme support & helpdesk",
+                            "status": "En ligne"
+                        },
+                        "modezoe": {
+                            "alt": "Capture d'écran du projet Modezoe",
+                            "name": "Modezoe",
+                            "description": "Plateforme",
+                            "status": "En ligne"
                         }
                     }
                 },
                 "experience": {
-                    "title": "Années",
-                    "strong": "d'expérience",
+                    "title": "Expérience",
+                    "strong": "professionnelle",
+                    "mos": "mois",
+                    "keySkills": "Compétences clés",
                     "companies": {
-                        "NoteHub": {
-                            "name": "NoteHub",
-                            "description": "Fondateur de l'application complète — responsable de l'architecture, de la sécurité, du développement, de la production, du messaging et de la maintenance.",
-                            "role": "Développeur Full-Stack",
-                            "period": "2024 - aujourd'hui"
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "Chef de Projet DevOps · CDI",
+                            "period": "Nov 2025 - Aujourd'hui"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "Agent Service Client & Spécialiste I.T. · CDD",
+                            "period": "Mai 2025 - Oct 2025",
+                            "bullets": [
+                                "Conçu une solution IT unifiée, approuvée par le président, pour améliorer l'efficacité opérationnelle.",
+                                "Reconnu comme meilleur agent avec 40 à 50 appels bilingues quotidiens et l'un des temps de traitement les plus courts."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "Ingénieur DevOps · Stage ANAPEC",
+                            "period": "Nov 2024 - Avr 2025",
+                            "bullets": [
+                                "Migré, déployé et géré une architecture complexe avec Docker, Kubernetes et Kubespray (AWS).",
+                                "Amélioré les performances de l'infrastructure de 10% et réduit les coûts de 15% par une allocation optimisée des ressources.",
+                                "Rationalisé les déploiements avec les stratégies blue-green et canary, atteignant 99,9% de disponibilité avec moins d'erreurs.",
+                                "Sécurisé les accès dans les clusters Kubernetes avec la gestion automatisée des secrets via HashiCorp Vault.",
+                                "Développé et automatisé les pipelines GitLab intégrant tests, analyse de code et provisionnement Ansible."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "Ingénieur DevOps · Stage PFE",
+                            "period": "Fév 2024 - Août 2024",
+                            "bullets": [
+                                "Conduit la recherche et le développement d'une extension cross-browser propulsée par l'IA.",
+                                "Obtenu 100 000 $ du programme GCP Cloud Computing Startups pour la présentation de mon projet de fin d'études."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "Ingénieur DevOps · Stage en Alternance",
+                            "period": "Fév 2023 - Août 2023",
+                            "bullets": [
+                                "Développé une plateforme automatisée de déploiement cloud avec des configurations personnalisables pour les tests de vulnérabilité.",
+                                "Géré une infrastructure AWS et configuré des environnements Blue Team/Red Team sur la plateforme SecDojo."
+                            ]
+                        }
+                    }
+                },
+                "education": {
+                    "title": "PARCOURS",
+                    "strong": "ACADÉMIQUE",
+                    "schools": {
+                        "Mundiapolis": {
+                            "name": "Université Mundiapolis, Casablanca",
+                            "degree": "Diplôme d'État en Ingénierie Informatique",
+                            "period": "Sep 2021 – Oct 2024"
+                        },
+                        "Transition": {
+                            "name": "—",
+                            "degree": "—",
+                            "period": "—"
+                        },
+                        "ISTA": {
+                            "name": "ISTA – OFPPT NTIC 1, Casablanca",
+                            "degree": "Diplôme de Technicien Spécialisé en Développement Informatique",
+                            "period": "Sep 2019 – Jun 2021"
                         }
                     }
                 },
@@ -124,6 +270,18 @@
                         "docker": {
                             "name": "Docker",
                             "description": "Plateforme de conteneurs"
+                        },
+                        "kubernetes": {
+                            "name": "Kubernetes",
+                            "description": "Orchestration de conteneurs"
+                        },
+                        "ansible": {
+                            "name": "Ansible",
+                            "description": "Automatisation de configuration"
+                        },
+                        "terraform": {
+                            "name": "Terraform",
+                            "description": "Infrastructure as Code"
                         },
                         "typescript": {
                             "name": "TypeScript",
@@ -152,7 +310,35 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "Plateforme d'hébergement"
-                        }
+                        },
+                        "git": { "name": "Git", "description": "Contrôle de version" },
+                        "github": { "name": "GitHub", "description": "Hébergement de code" },
+                        "gitlab": { "name": "GitLab", "description": "Plateforme DevOps" },
+                        "jenkins": { "name": "Jenkins", "description": "Automatisation CI/CD" },
+                        "azure": { "name": "Azure", "description": "Plateforme cloud" },
+                        "aws": { "name": "AWS", "description": "Plateforme cloud" },
+                        "gcp": { "name": "GCP", "description": "Plateforme cloud" },
+                        "grafana": { "name": "Grafana", "description": "Monitoring & analytique" },
+                        "prometheus": { "name": "Prometheus", "description": "Métriques & alertes" },
+                        "jira": { "name": "Jira", "description": "Suivi de projet" },
+                        "confluence": { "name": "Confluence", "description": "Documentation d'équipe" },
+                        "superset": { "name": "Apache Superset", "description": "Visualisation de données" },
+                        "powerbi": { "name": "Power BI", "description": "Intelligence d'affaires" },
+                        "odoo": { "name": "Odoo", "description": "ERP open-source" },
+                        "salesforce": { "name": "Salesforce", "description": "Plateforme CRM" },
+                        "python": { "name": "Python", "description": "Langage polyvalent" },
+                        "csharp": { "name": "C#", "description": "Langage Microsoft" },
+                        "flutter": { "name": "Flutter", "description": "Boîte à outils UI multiplateforme" },
+                        "reactnative": { "name": "React Native", "description": "Mobile multiplateforme" },
+                        "vault": { "name": "HashiCorp Vault", "description": "Gestion des secrets" },
+                        "kafka": { "name": "Apache Kafka", "description": "Plateforme de streaming d'événements" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "Courtier de messages" },
+                        "postman": { "name": "Postman", "description": "Outil de test d'API" },
+                        "selenium": { "name": "Selenium", "description": "Automatisation de navigateur" },
+                        "linux": { "name": "Linux", "description": "Système d'exploitation open-source" },
+                        "bash": { "name": "Bash", "description": "Scripting shell" },
+                        "trello": { "name": "Trello", "description": "Tableaux Kanban" },
+                        "notion": { "name": "Notion", "description": "Docs & wikis" }
                     }
                 },
                 "contact": {
@@ -184,7 +370,7 @@
             "notehub": {
                 "title": "NoteHub",
                 "subtitle": "Réseau social",
-                "description": "NoteHub est une plateforme open-source pour créer, organiser et partager des notes au format .txt. Conçue avec un accent sur la simplicité et l'ergonomie — facile à utiliser et ouverte aux contributions de la communauté.",
+                "description": "NoteHub est une plateforme open-source pour créer, organiser et partager des notes au format .txt. Conçue avec un accent sur la simplicité et l'ergonomie, facile à utiliser et ouverte aux contributions de la communauté.",
                 "view": "Voir le site",
                 "navAriaLabel": "Liens externes liés au produit",
                 "roles": {
@@ -240,12 +426,12 @@
     },
     "footer": {
         "author": {
-            "text": "Créé par",
-            "name": "Lucas"
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
         },
         "tech": {
-            "text": "Propulsé par",
-            "name": "Next.js"
+            "text": "Tous droits",
+            "name": "réservés"
         }
     },
     "notFound": "Route invalide."

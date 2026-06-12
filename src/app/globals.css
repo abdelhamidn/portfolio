@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica+Headline:ital,wght@0,100..900;1,100..900&family=Story+Script&display=swap');
 @import "tailwindcss";
+
+/* ===============================
+   CSS Variables
+================================ */
 
 :root {
   --dark: oklch(0.1879 0.0016 17.3);
   --light: oklch(0.9992 0.0011 197.14);
   --neutral: oklch(55.6% 0 0);
-  --primary: oklch(0.606 0.25 292.717);
-  --secondary: oklch(0.38 0.189 293.745);
+  --primary: oklch(0.723 0.219 149.579);
+  --secondary: oklch(0.393 0.095 152.535);
+  --gray-bg: #f2f3f3;
+
+  --font-sans: 'Finlandica Headline', system-ui, sans-serif;
+  --font-mono: 'Finlandica Headline', monospace;
 }
+
+/* ===============================
+   Dark Mode Variables
+================================ */
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,9 +31,13 @@
   }
 }
 
+/* ===============================
+   Tailwind Theme Bridge
+================================ */
+
 @theme inline {
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: 'Finlandica Headline', system-ui, sans-serif;
+  --font-mono: 'Finlandica Headline', monospace;
   --color-dark: var(--dark);
   --color-light: var(--light);
   --color-neutral: var(--neutral);
@@ -28,13 +45,44 @@
   --color-secondary: var(--secondary);
 }
 
+/* ===============================
+   Variants
+================================ */
+
 @custom-variant dark (&:where(.dark, .dark *));
 @custom-variant in2xl (@media (max-width: 1536px));
 @custom-variant inxl (@media (max-width: 1280px));
 @custom-variant inlg (@media (max-width: 1024px));
 @custom-variant inmd (@media (max-width: 768px));
 @custom-variant insm (@media (max-width: 640px));
+@custom-variant in390 (@media (max-width: 393px));
 @custom-variant inxs (@media (max-width: 333px));
+
+/* ===============================
+   Base Styles (IMPORTANT)
+================================ */
+
+html {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+body {
+  @apply antialiased;
+  background-color: var(--gray-bg);
+
+  @media (max-width: 1024px) {
+    background-color: white;
+  }
+}
+
+code,
+pre {
+  font-family: var(--font-mono), monospace;
+}
+
+/* ===============================
+   Utilities
+================================ */
 
 @utility outline-custom {
   @apply outline-offset-4 dark:outline-offset-0 outline-primary;
@@ -53,7 +101,7 @@
   @apply after:pointer-events-none after:[transform:translateZ(0)];
   @apply after:-z-10 after:absolute after:top-1/2 after:left-1/2 after:-translate-1/2;
   @apply after:w-[333px] after:h-[333px] after:rounded-full;
-  @apply dark:after:bg-light after:bg-dark;
+  @apply after:bg-transparent;
   @apply after:transition-all after:duration-666;
   @apply hover:after:shadow-[inset_0_0_0_175px] hover:after:shadow-primary;
   @apply active:after:shadow-[inset_0_0_0_175px] active:after:shadow-secondary;
@@ -77,5 +125,80 @@
 }
 
 button {
-  @apply select-none
+  @apply select-none;
+}
+
+::selection {
+  background-color: var(--color-primary);
+  color: var(--color-light);
+}
+
+/* ===============================
+   Keyframes
+================================ */
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+@keyframes spin-slow {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@utility animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+@utility animate-blink {
+    animation: blink-cursor 1.2s step-end infinite;
+}
+
+@utility animate-spin-slow {
+    animation: spin-slow 22s linear infinite;
+}
+
+/* ===============================
+   Scrollbar
+================================ */
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
+
+.dark ::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.1);
+  background-color: #1a1a1a;
+}
+
+.dark ::-webkit-scrollbar {
+  background-color: #1a1a1a;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--primary);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
 }

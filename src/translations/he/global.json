@@ -7,6 +7,7 @@
             "home": "בית",
             "work": "עבודה",
             "experience": "ניסיון",
+            "education": "השכלה",
             "tools": "כלים",
             "contact": "צור קשר"
         }
@@ -23,29 +24,33 @@
         },
         "dropdowns": {
             "language": {
-                "pt": {
-                    "alt": "דגל ברזיל",
-                    "label": "פורטוגזית"
-                },
-                "he": {
-                    "alt": "דגל ישראל",
-                    "label": "עברית"
-                },
-                "de": {
-                    "alt": "דגל גרמניה",
-                    "label": "גרמנית"
+                "ar": {
+                    "alt": "דגל ערב הסעודית",
+                    "label": "ערבית"
                 },
                 "en": {
                     "alt": "דגל ארצות הברית",
                     "label": "אנגלית"
                 },
+                "fr": {
+                    "alt": "דגל צרפת",
+                    "label": "צרפתית"
+                },
+                "de": {
+                    "alt": "דגל גרמניה",
+                    "label": "גרמנית"
+                },
                 "es": {
                     "alt": "דגל ספרד",
                     "label": "ספרדית"
                 },
-                "fr": {
-                    "alt": "דגל צרפת",
-                    "label": "צרפתית"
+                "zh": {
+                    "alt": "דגל סין",
+                    "label": "סינית"
+                },
+                "he": {
+                    "alt": "דגל ישראל",
+                    "label": "עברית"
                 }
             },
             "theme": {
@@ -59,22 +64,24 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "תמונה של לוקאס"
+                        "alt": "תמונה של עבדאלחמיד"
                     },
-                    "name": "Abdelhamid Noira",
-                    "description": "מפתח פול-סטאק",
-                    "location": "דרום מינאס, ברזיל",
+                    "name": "Abdelhamid NOIRA",
+                    "description": "מנהל פרויקטים DevOps",
+                    "location": "קזבלנקה, מרוקו",
                     "socials": {
                         "linkedin": "פתח את LinkedIn בכרטיסייה חדשה",
                         "whatsapp": "פתח את WhatsApp בכרטיסייה חדשה",
-                        "github": "פתח את GitHub בכרטיסייה חדשה"
+                        "github": "פתח את GitHub בכרטיסייה חדשה",
+                        "twitter": "פתח את X בכרטיסייה חדשה",
+                        "reddit": "פתח את Reddit בכרטיסייה חדשה"
                     },
                     "button": "יאללה נדבר"
                 },
                 "home": {
                     "title": "מהפשוט אל",
                     "strong": "המשמעותי",
-                    "description": "יוצר ממשקים אינטואיטיביים ופונקציונליים, שמוסיפים ערך לאיכות המוצר.",
+                    "description": "בעל ניסיון בהנדסת ענן, DevOps וניהול פרויקטים. אני מתכנן מערכות חסינות, מוביל צוותים רב-תחומיים ומספק תוצאות מדויקות גם בתנאים המאתגרים ביותר.",
                     "numbers": {
                         "years": "שנת ניסיון",
                         "projects": "פרוייקטים שהושלמו",
@@ -86,26 +93,165 @@
                     }
                 },
                 "work": {
-                    "title": "המוצרים הכי",
-                    "strong": "עדכניים",
+                    "title": "מרעיון",
+                    "strong": "לייצור",
                     "products": {
                         "notehub": {
                             "alt": "תמונה של רשת חברתית NoteHub",
                             "name": "NoteHub",
                             "description": "רשת חברתית",
                             "status": "חי"
+                        },
+                        "mtech": {
+                            "alt": "צילום מסך של פרויקט MTech",
+                            "name": "MTech",
+                            "description": "צ'אטבוטים RAG רב-מודאליים",
+                            "status": "חי"
+                        },
+                        "mncloud": {
+                            "alt": "צילום מסך של פרויקט MNCloud",
+                            "name": "MNCloud",
+                            "description": "ענן פרטי אישי",
+                            "status": "חי"
+                        },
+                        "deskea": {
+                            "alt": "צילום מסך של פלטפורמת Deskea",
+                            "name": "Deskea",
+                            "description": "פלטפורמת תמיכה ו-helpdesk",
+                            "status": "חי"
+                        },
+                        "dqplugin": {
+                            "alt": "צילום מסך של פרויקט DeepLinq Plugin",
+                            "name": "DeepLinq Plugin",
+                            "description": "תוסף AI רב-דפדפנים",
+                            "status": "חי"
+                        },
+                        "sysmed": {
+                            "alt": "צילום מסך של פרויקט SysMed",
+                            "name": "SysMed",
+                            "description": "אפליקציית בריאות חוצת פלטפורמות",
+                            "status": "חי"
+                        },
+                        "secdojo": {
+                            "alt": "צילום מסך של פרויקט SecDojo",
+                            "name": "SecDojo",
+                            "description": "פלטפורמת אבטחת סייבר",
+                            "status": "חי"
+                        },
+                        "homesense": {
+                            "alt": "צילום מסך של פרויקט HomeSense",
+                            "name": "HomeSense",
+                            "description": "ויטרינה בית חכם",
+                            "status": "חי"
+                        },
+                        "frmje": {
+                            "alt": "צילום מסך של פרויקט FRMJE",
+                            "name": "FRMJE",
+                            "description": "ויטרינה WordPress",
+                            "status": "חי"
+                        },
+                        "bbcr": {
+                            "alt": "צילום מסך של פרויקט BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "ויטרינה מוקד טלפוני",
+                            "status": "חי"
+                        },
+                        "kenzmedia": {
+                            "alt": "צילום מסך של פרויקט KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "ויטרינה שיווק דיגיטלי",
+                            "status": "חי"
+                        },
+                        "viadis": {
+                            "alt": "צילום מסך של פרויקט Viadis",
+                            "name": "Viadis",
+                            "description": "פלטפורמת מסחר אלקטרוני",
+                            "status": "חי"
+                        },
+                        "anom": {
+                            "alt": "צילום מסך של פרויקט ANØM",
+                            "name": "ANØM",
+                            "description": "עולם של סוכני בינה מלאכותית",
+                            "status": "חי"
+                        },
+                        "modezoe": {
+                            "alt": "צילום מסך של פרויקט Modezoe",
+                            "name": "Modezoe",
+                            "description": "פלטפורמה",
+                            "status": "חי"
                         }
                     }
                 },
                 "experience": {
-                    "title": "שנות",
-                    "strong": "ניסיון",
+                    "title": "ניסיון",
+                    "strong": "מקצועי",
+                    "mos": "חו׳",
+                    "keySkills": "מיומנויות מפתח",
                     "companies": {
-                        "NoteHub": {
-                            "name": "NoteHub",
-                            "description": "מייסד האפליקציה כולה, אחראי על כל הארכיטקטורה, אבטחה, פיתוח, פרודקשן, מסרנות ותחזוקה.",
-                            "role": "מפתח פול-סטאק",
-                            "period": "2024 - עד היום"
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "מנהל פרויקטים DevOps · משרה מלאה · CDI",
+                            "period": "נוב 2025 - עד היום"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "סוכן שירות לקוחות ומומחה I.T. · CDD",
+                            "period": "מאי 2025 - אוק 2025",
+                            "bullets": [
+                                "תכננתי פתרון IT מאוחד שאושר על ידי הנשיא לשיפור היעילות התפעולית.",
+                                "הוכרתי כסוכן הטוב ביותר עם 40 עד 50 שיחות דו-לשוניות ביום ואחד מזמני הטיפול הקצרים ביותר."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "מהנדס DevOps · התמחות ANAPEC",
+                            "period": "נוב 2024 - אפר 2025",
+                            "bullets": [
+                                "העברתי, פרסתי וניהלתי ארכיטקטורה מורכבת עם Docker, Kubernetes ו-Kubespray (AWS).",
+                                "שיפרתי ביצועי התשתית ב-10% והפחתתי עלויות ב-15% באמצעות הקצאת משאבים מיטבית.",
+                                "ייעלתי גרסאות עם blue-green ו-canary deployments והשגתי 99.9% uptime עם פחות שגיאות.",
+                                "אבטחתי זרמי גישה באשכולות Kubernetes עם ניהול secrets אוטומטי באמצעות HashiCorp Vault.",
+                                "פיתחתי ואוטומטתי pipelines ב-GitLab עם שילוב בדיקות, ניתוח קוד ו-Ansible."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "מהנדס DevOps · התמחות PFE",
+                            "period": "פבר 2024 - אוג 2024",
+                            "bullets": [
+                                "הובלתי מחקר ופיתוח של תוסף דפדפן cross-browser מונע AI.",
+                                "זכיתי ב-$100,000 מתוכנית GCP Cloud Computing Startups לאחר הצגת פרויקט הגמר שלי."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "מהנדס DevOps · התמחות Alternance",
+                            "period": "פבר 2023 - אוג 2023",
+                            "bullets": [
+                                "פיתחתי פלטפורמה אוטומטית לפריסת ענן עם הגדרות מותאמות אישית לבדיקות פגיעות.",
+                                "ניהלתי תשתית AWS והגדרתי סביבות Blue Team/Red Team בפלטפורמת SecDojo."
+                            ]
+                        }
+                    }
+                },
+                "education": {
+                    "title": "רקע",
+                    "strong": "אקדמי",
+                    "schools": {
+                        "Mundiapolis": {
+                            "name": "Université Mundiapolis, קזבלנקה",
+                            "degree": "מדעי המחשב, מהנדס מדינה",
+                            "period": "ספט 2021 – אוק 2024"
+                        },
+                        "Transition": {
+                            "name": "—",
+                            "degree": "—",
+                            "period": "—"
+                        },
+                        "ISTA": {
+                            "name": "ISTA – OFPPT NTIC 1, קזבלנקה",
+                            "degree": "טכנאי מומחה בפיתוח תוכנה",
+                            "period": "ספט 2019 – יוני 2021"
                         }
                     }
                 },
@@ -124,6 +270,18 @@
                         "docker": {
                             "name": "Docker",
                             "description": "פלטפורמת קונטיינרים"
+                        },
+                        "kubernetes": {
+                            "name": "Kubernetes",
+                            "description": "תזמור קונטיינרים"
+                        },
+                        "ansible": {
+                            "name": "Ansible",
+                            "description": "אוטומציה של תצורה"
+                        },
+                        "terraform": {
+                            "name": "Terraform",
+                            "description": "תשתית כקוד"
                         },
                         "typescript": {
                             "name": "TypeScript",
@@ -152,7 +310,35 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "פלטפורמת אירוח"
-                        }
+                        },
+                        "git": { "name": "Git", "description": "ניהול גרסאות" },
+                        "github": { "name": "GitHub", "description": "אחסון קוד" },
+                        "gitlab": { "name": "GitLab", "description": "פלטפורמת DevOps" },
+                        "jenkins": { "name": "Jenkins", "description": "אוטומציה CI/CD" },
+                        "azure": { "name": "Azure", "description": "פלטפורמת ענן" },
+                        "aws": { "name": "AWS", "description": "פלטפורמת ענן" },
+                        "gcp": { "name": "GCP", "description": "פלטפורמת ענן" },
+                        "grafana": { "name": "Grafana", "description": "ניטור ואנליטיקה" },
+                        "prometheus": { "name": "Prometheus", "description": "מדדים והתראות" },
+                        "jira": { "name": "Jira", "description": "מעקב פרויקטים" },
+                        "confluence": { "name": "Confluence", "description": "תיעוד צוות" },
+                        "superset": { "name": "Apache Superset", "description": "ויזואליזציה של נתונים" },
+                        "powerbi": { "name": "Power BI", "description": "ניתוח עסקי" },
+                        "odoo": { "name": "Odoo", "description": "ERP קוד פתוח" },
+                        "salesforce": { "name": "Salesforce", "description": "פלטפורמת CRM" },
+                        "python": { "name": "Python", "description": "שפת תכנות כללית" },
+                        "csharp": { "name": "C#", "description": "שפת מיקרוסופט" },
+                        "flutter": { "name": "Flutter", "description": "ערכת UI חוצת-פלטפורמה" },
+                        "reactnative": { "name": "React Native", "description": "מובייל חוצת-פלטפורמה" },
+                        "vault": { "name": "HashiCorp Vault", "description": "ניהול סודות" },
+                        "kafka": { "name": "Apache Kafka", "description": "פלטפורמת סטרימינג אירועים" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "ברוקר הודעות" },
+                        "postman": { "name": "Postman", "description": "כלי בדיקת API" },
+                        "selenium": { "name": "Selenium", "description": "אוטומציה של דפדפן" },
+                        "linux": { "name": "Linux", "description": "מערכת הפעלה קוד פתוח" },
+                        "bash": { "name": "Bash", "description": "תסריטי שורת פקודה" },
+                        "trello": { "name": "Trello", "description": "לוחות קנבן" },
+                        "notion": { "name": "Notion", "description": "מסמכים וויקי" }
                     }
                 },
                 "contact": {
@@ -184,7 +370,7 @@
             "notehub": {
                 "title": "NoteHub",
                 "subtitle": "רשת חברתית",
-                "description": "NoteHub היא פלטפורמה בקוד פתוח שמאפשרת ליצור, לארגן ולשתף הערות בפורמט .txt. מתוכננת עם דגש על פשטות ושימושיות — קלה לשימוש ופתוחה לתרומות מהקהילה.",
+                "description": "NoteHub היא פלטפורמה בקוד פתוח שמאפשרת ליצור, לארגן ולשתף הערות בפורמט .txt. מתוכננת עם דגש על פשטות ושימושיות, קלה לשימוש ופתוחה לתרומות מהקהילה.",
                 "view": "צפה באתר",
                 "navAriaLabel": "קישורים חיצוניים הקשורים למוצר",
                 "roles": {
@@ -240,12 +426,12 @@
     },
     "footer": {
         "author": {
-            "text": "נוצר על ידי",
-            "name": "Lucas"
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
         },
         "tech": {
-            "text": "מופעל על ידי",
-            "name": "Next.js"
+            "text": "כל הזכויות",
+            "name": "שמורות"
         }
     },
     "notFound": "נתיב לא חוקי.."

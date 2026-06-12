@@ -1,9 +1,11 @@
-import { ScrollToOnLoad, Home, Work, Tools, Contact } from "@/components/sections";
+import { ScrollToOnLoad, Home, Work, Experience, Education, Tools, Contact } from "@/components/sections";
 
 const Page = () => (
     <ScrollToOnLoad>
         <Home />
         <Work />
+        <Experience />
+        <Education />
         <Tools />
         <Contact />
     </ScrollToOnLoad>

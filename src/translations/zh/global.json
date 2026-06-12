@@ -1,0 +1,389 @@
+{
+    "backToTop": "返回顶部",
+    "header": {
+        "navAriaLabel": "网站主导航",
+        "links": {
+            "profile": "关于",
+            "home": "首页",
+            "work": "作品",
+            "experience": "经历",
+            "education": "教育",
+            "tools": "工具",
+            "contact": "联系"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "中国国旗",
+                "label": "语言"
+            },
+            "theme": {
+                "label": "主题"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "ar": {
+                    "alt": "沙特阿拉伯国旗",
+                    "label": "阿拉伯语"
+                },
+                "en": {
+                    "alt": "美国国旗",
+                    "label": "英语"
+                },
+                "fr": {
+                    "alt": "法国国旗",
+                    "label": "法语"
+                },
+                "de": {
+                    "alt": "德国国旗",
+                    "label": "德语"
+                },
+                "es": {
+                    "alt": "西班牙国旗",
+                    "label": "西班牙语"
+                },
+                "zh": {
+                    "alt": "中国国旗",
+                    "label": "中文"
+                },
+                "he": {
+                    "alt": "以色列国旗",
+                    "label": "希伯来语"
+                }
+            },
+            "theme": {
+                "dark": "深色",
+                "light": "浅色"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "Abdelhamid 的照片"
+                    },
+                    "name": "Abdelhamid NOIRA",
+                    "description": "DevOps 项目经理",
+                    "location": "卡萨布兰卡，摩洛哥",
+                    "socials": {
+                        "linkedin": "在新标签页中打开 LinkedIn",
+                        "whatsapp": "在新标签页中打开 WhatsApp",
+                        "github": "在新标签页中打开 GitHub",
+                        "twitter": "在新标签页中打开 X",
+                        "reddit": "在新标签页中打开 Reddit"
+                    },
+                    "button": "联系我"
+                },
+                "home": {
+                    "title": "从简单到",
+                    "strong": "有价值",
+                    "description": "深耕云工程、DevOps与项目管理领域，我构建稳健系统，带领跨职能团队，在最严苛的条件下精准交付，始终保持全局掌控。",
+                    "numbers": {
+                        "years": "年经验",
+                        "projects": "完成项目",
+                        "products": "产品发布"
+                    },
+                    "buttons": {
+                        "contact": "联系我",
+                        "work": "我的作品"
+                    }
+                },
+                "work": {
+                    "title": "从创意到",
+                    "strong": "生产",
+                    "products": {
+                        "notehub": {
+                            "alt": "NoteHub 社交网络截图",
+                            "name": "NoteHub",
+                            "description": "社交网络",
+                            "status": "上线"
+                        },
+                        "mtech": {
+                            "alt": "MTech 项目截图",
+                            "name": "MTech",
+                            "description": "RAG 多模态聊天机器人",
+                            "status": "上线"
+                        },
+                        "mncloud": {
+                            "alt": "MNCloud 项目截图",
+                            "name": "MNCloud",
+                            "description": "个人私有云",
+                            "status": "上线"
+                        },
+                        "dqplugin": {
+                            "alt": "DeepLinq Plugin 项目截图",
+                            "name": "DeepLinq Plugin",
+                            "description": "跨浏览器 AI 扩展插件",
+                            "status": "上线"
+                        },
+                        "sysmed": {
+                            "alt": "SysMed 项目截图",
+                            "name": "SysMed",
+                            "description": "跨平台医疗应用",
+                            "status": "上线"
+                        },
+                        "secdojo": {
+                            "alt": "SecDojo 项目截图",
+                            "name": "SecDojo",
+                            "description": "网络安全平台",
+                            "status": "上线"
+                        },
+                        "homesense": {
+                            "alt": "HomeSense 项目截图",
+                            "name": "HomeSense",
+                            "description": "智能家居展示",
+                            "status": "上线"
+                        },
+                        "frmje": {
+                            "alt": "FRMJE 项目截图",
+                            "name": "FRMJE",
+                            "description": "WordPress 展示网站",
+                            "status": "上线"
+                        },
+                        "bbcr": {
+                            "alt": "BBCR 呼叫中心项目截图",
+                            "name": "BBCR Call Center",
+                            "description": "呼叫中心展示",
+                            "status": "上线"
+                        },
+                        "kenzmedia": {
+                            "alt": "KenzMedia 项目截图",
+                            "name": "KenzMedia",
+                            "description": "数字营销展示",
+                            "status": "上线"
+                        },
+                        "viadis": {
+                            "alt": "Viadis 项目截图",
+                            "name": "Viadis",
+                            "description": "电商平台",
+                            "status": "上线"
+                        },
+                        "anom": {
+                            "alt": "ANØM 项目截图",
+                            "name": "ANØM",
+                            "description": "AI 智能体宇宙",
+                            "status": "上线"
+                        },
+                        "deskea": {
+                            "alt": "Deskea 平台截图",
+                            "name": "Deskea",
+                            "description": "支持与服务台平台",
+                            "status": "上线"
+                        },
+                        "modezoe": {
+                            "alt": "Modezoe 项目截图",
+                            "name": "Modezoe",
+                            "description": "平台",
+                            "status": "上线"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "职业",
+                    "strong": "经历",
+                    "mos": "个月",
+                    "keySkills": "核心技能",
+                    "companies": {
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "DevOps 项目经理 · 全职 · CDI",
+                            "period": "2025年11月 - 至今"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "客服代表兼IT专员 · CDD",
+                            "period": "2025年5月 - 2025年10月",
+                            "bullets": [
+                                "设计了一套获总裁批准的统一IT解决方案以提升运营效率。",
+                                "被评为最佳客服代表每日处理40至50个双语电话并保持全团队最短平均处理时长之列。"
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "DevOps 工程师 · ANAPEC 实习",
+                            "period": "2024年11月 - 2025年4月",
+                            "bullets": [
+                                "迁移、部署并管理了基于Docker、Kubernetes和Kubespray (AWS)的复杂架构。",
+                                "通过优化资源分配将基础架构性能提升10%并降低成本15%。",
+                                "通过蓝绿和金丝雀部署优化发布流程实现99.9%正常运行时间并减少错误。",
+                                "通过HashiCorp Vault自动化密钥管理保护Kubernetes集群中的访问流。",
+                                "开发并自动化GitLab流水线集成测试、代码分析和Ansible角色配置。"
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "DevOps 工程师 · 毕业设计实习 (PFE)",
+                            "period": "2024年2月 - 2024年8月",
+                            "bullets": [
+                                "主导跨浏览器AI扩展的研发工作。",
+                                "因展示毕业设计项目获得GCP Cloud Computing Startups Program 10万美元奖励。"
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "DevOps 工程师 · Alternance 实习",
+                            "period": "2023年2月 - 2023年8月",
+                            "bullets": [
+                                "开发了具有可定制配置的自动化云部署平台用于漏洞测试。",
+                                "管理AWS基础架构并在SecDojo平台上配置蓝队/红队环境。"
+                            ]
+                        }
+                    }
+                },
+                "education": {
+                    "title": "学术",
+                    "strong": "背景",
+                    "schools": {
+                        "Mundiapolis": {
+                            "name": "蒙迪亚波利斯大学，卡萨布兰卡",
+                            "degree": "计算机科学，国家工程师文凭",
+                            "period": "2021年9月 – 2024年10月"
+                        },
+                        "Transition": {
+                            "name": "—",
+                            "degree": "—",
+                            "period": "—"
+                        },
+                        "ISTA": {
+                            "name": "ISTA – OFPPT NTIC 1，卡萨布兰卡",
+                            "degree": "软件开发专业技术员文凭",
+                            "period": "2019年9月 – 2021年6月"
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "主要",
+                    "strong": "工具",
+                    "items": {
+                        "java": { "name": "Java", "description": "编程语言" },
+                        "spring": { "name": "Spring", "description": "Java 框架" },
+                        "docker": { "name": "Docker", "description": "容器平台" },
+                        "kubernetes": { "name": "Kubernetes", "description": "容器编排" },
+                        "ansible": { "name": "Ansible", "description": "配置自动化" },
+                        "terraform": { "name": "Terraform", "description": "基础设施即代码" },
+                        "typescript": { "name": "TypeScript", "description": "编程语言" },
+                        "reactjs": { "name": "React.js", "description": "JavaScript 库" },
+                        "nextjs": { "name": "Next.js", "description": "React 框架" },
+                        "postgres": { "name": "PostgreSQL", "description": "数据库" },
+                        "supabase": { "name": "Supabase", "description": "存储平台" },
+                        "flyio": { "name": "Fly.io", "description": "托管平台" },
+                        "vercel": { "name": "Vercel", "description": "托管平台" },
+                        "git": { "name": "Git", "description": "版本控制" },
+                        "github": { "name": "GitHub", "description": "代码托管" },
+                        "gitlab": { "name": "GitLab", "description": "DevOps 平台" },
+                        "jenkins": { "name": "Jenkins", "description": "CI/CD 自动化" },
+                        "azure": { "name": "Azure", "description": "云平台" },
+                        "aws": { "name": "AWS", "description": "云平台" },
+                        "gcp": { "name": "GCP", "description": "云平台" },
+                        "grafana": { "name": "Grafana", "description": "监控与分析" },
+                        "prometheus": { "name": "Prometheus", "description": "指标与告警" },
+                        "jira": { "name": "Jira", "description": "项目跟踪" },
+                        "confluence": { "name": "Confluence", "description": "团队文档" },
+                        "superset": { "name": "Apache Superset", "description": "数据可视化" },
+                        "powerbi": { "name": "Power BI", "description": "商业智能" },
+                        "odoo": { "name": "Odoo", "description": "开源ERP" },
+                        "salesforce": { "name": "Salesforce", "description": "CRM 平台" },
+                        "python": { "name": "Python", "description": "通用编程语言" },
+                        "csharp": { "name": "C#", "description": "微软语言" },
+                        "flutter": { "name": "Flutter", "description": "跨平台UI工具包" },
+                        "reactnative": { "name": "React Native", "description": "跨平台移动开发" },
+                        "vault": { "name": "HashiCorp Vault", "description": "密钥管理" },
+                        "kafka": { "name": "Apache Kafka", "description": "事件流平台" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "消息代理" },
+                        "postman": { "name": "Postman", "description": "API 测试工具" },
+                        "selenium": { "name": "Selenium", "description": "浏览器自动化" },
+                        "linux": { "name": "Linux", "description": "开源操作系统" },
+                        "bash": { "name": "Bash", "description": "Shell 脚本" },
+                        "trello": { "name": "Trello", "description": "看板工具" },
+                        "notion": { "name": "Notion", "description": "文档与知识库" }
+                    }
+                },
+                "contact": {
+                    "title": "合作",
+                    "strong": "联系",
+                    "form": {
+                        "legend": "联系",
+                        "name": {
+                            "label": "姓名",
+                            "placeholder": "您的姓名"
+                        },
+                        "email": {
+                            "label": "邮箱",
+                            "placeholder": "your@email.com"
+                        },
+                        "message": {
+                            "label": "留言",
+                            "placeholder": "您的留言"
+                        },
+                        "button": {
+                            "text": "发送"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "产品",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "社交网络",
+                "description": "NoteHub 是一个开源平台，允许用户以 .txt 格式创建、组织和分享笔记。以简洁和易用性为设计重点，易于使用、直观，并对社区贡献开放。",
+                "view": "查看上线版本",
+                "navAriaLabel": "产品外部链接",
+                "roles": {
+                    "ulAriaLabel": "NoteHub 项目角色和职责列表",
+                    "branding": {
+                        "title": "品牌",
+                        "description": "负责设计 logo、定义品牌策略和开发项目视觉形象"
+                    },
+                    "development": {
+                        "title": "开发",
+                        "description": "致力于构建交互式动态界面，应用简洁代码和开发最佳实践"
+                    },
+                    "storage": {
+                        "title": "存储",
+                        "description": "数据库建模和笔记存储系统集成"
+                    },
+                    "security": {
+                        "title": "安全",
+                        "description": "实现了身份验证、加密和数据保护实践"
+                    },
+                    "messaging": {
+                        "title": "消息",
+                        "description": "配置并实现了事务性邮件流"
+                    },
+                    "deploy": {
+                        "title": "部署",
+                        "description": "设置持续部署流水线并监控生产环境中的应用"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "NoteHub 社交网络概览"
+                    },
+                    "ulAriaLabel": "产品界面图片库",
+                    "1": { "alt": "NoteHub 主页" },
+                    "2": { "alt": "NoteHub 用户个人页" },
+                    "3": { "alt": "NoteHub 用户笔记信息流" },
+                    "4": { "alt": "NoteHub 用户通知页" },
+                    "5": { "alt": "NoteHub 主色自定义界面" }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
+        },
+        "tech": {
+            "text": "版权所有",
+            "name": "保留所有权利"
+        }
+    },
+    "notFound": "无效路径。"
+}

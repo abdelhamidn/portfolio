@@ -1,0 +1,389 @@
+{
+    "backToTop": "العودة للأعلى",
+    "header": {
+        "navAriaLabel": "التنقل الرئيسي للموقع",
+        "links": {
+            "profile": "عني",
+            "home": "الرئيسية",
+            "work": "أعمالي",
+            "experience": "الخبرة",
+            "education": "التعليم",
+            "tools": "الأدوات",
+            "contact": "تواصل"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "علم المملكة العربية السعودية",
+                "label": "اللغة"
+            },
+            "theme": {
+                "label": "المظهر"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "ar": {
+                    "alt": "علم المملكة العربية السعودية",
+                    "label": "العربية"
+                },
+                "en": {
+                    "alt": "علم الولايات المتحدة",
+                    "label": "الإنجليزية"
+                },
+                "fr": {
+                    "alt": "علم فرنسا",
+                    "label": "الفرنسية"
+                },
+                "de": {
+                    "alt": "علم ألمانيا",
+                    "label": "الألمانية"
+                },
+                "es": {
+                    "alt": "علم إسبانيا",
+                    "label": "الإسبانية"
+                },
+                "zh": {
+                    "alt": "علم الصين",
+                    "label": "الصينية"
+                },
+                "he": {
+                    "alt": "علم إسرائيل",
+                    "label": "العبرية"
+                }
+            },
+            "theme": {
+                "dark": "داكن",
+                "light": "فاتح"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "صورة عبد الحميد"
+                    },
+                    "name": "Abdelhamid NOIRA",
+                    "description": "مدير مشاريع DevOps",
+                    "location": "الدار البيضاء، المغرب",
+                    "socials": {
+                        "linkedin": "افتح LinkedIn في تبويب جديد",
+                        "whatsapp": "افتح WhatsApp في تبويب جديد",
+                        "github": "افتح GitHub في تبويب جديد",
+                        "twitter": "افتح X في تبويب جديد",
+                        "reddit": "افتح Reddit في تبويب جديد"
+                    },
+                    "button": "تواصل معي"
+                },
+                "home": {
+                    "title": "من البسيط إلى",
+                    "strong": "القيّم",
+                    "description": "متمرّس في هندسة السحابة وDevOps وقيادة المشاريع. أصمّم أنظمة متينة، أقود فرقًا متعددة التخصصات، وأُنجز المهام بدقة عالية في أصعب الظروف.",
+                    "numbers": {
+                        "years": "سنة خبرة",
+                        "projects": "مشروع مكتمل",
+                        "products": "منتج مُطلق"
+                    },
+                    "buttons": {
+                        "contact": "تواصل معي",
+                        "work": "أعمالي"
+                    }
+                },
+                "work": {
+                    "title": "من الفكرة إلى",
+                    "strong": "الإنتاج",
+                    "products": {
+                        "notehub": {
+                            "alt": "لقطة شاشة لشبكة NoteHub الاجتماعية",
+                            "name": "NoteHub",
+                            "description": "شبكة اجتماعية",
+                            "status": "مباشر"
+                        },
+                        "mtech": {
+                            "alt": "لقطة شاشة لمشروع MTech",
+                            "name": "MTech",
+                            "description": "روبوتات محادثة RAG متعددة الوسائط",
+                            "status": "مباشر"
+                        },
+                        "mncloud": {
+                            "alt": "لقطة شاشة لمشروع MNCloud",
+                            "name": "MNCloud",
+                            "description": "سحابة خاصة شخصية",
+                            "status": "مباشر"
+                        },
+                        "dqplugin": {
+                            "alt": "لقطة شاشة لمشروع DeepLinq Plugin",
+                            "name": "DeepLinq Plugin",
+                            "description": "إضافة متعددة المتصفحات مدعومة بالذكاء الاصطناعي",
+                            "status": "مباشر"
+                        },
+                        "sysmed": {
+                            "alt": "لقطة شاشة لمشروع SysMed",
+                            "name": "SysMed",
+                            "description": "تطبيق صحي متعدد المنصات",
+                            "status": "مباشر"
+                        },
+                        "secdojo": {
+                            "alt": "لقطة شاشة لمشروع SecDojo",
+                            "name": "SecDojo",
+                            "description": "منصة الأمن السيبراني",
+                            "status": "مباشر"
+                        },
+                        "homesense": {
+                            "alt": "لقطة شاشة لمشروع HomeSense",
+                            "name": "HomeSense",
+                            "description": "عرض المنزل الذكي",
+                            "status": "مباشر"
+                        },
+                        "frmje": {
+                            "alt": "لقطة شاشة لمشروع FRMJE",
+                            "name": "FRMJE",
+                            "description": "موقع عرض WordPress",
+                            "status": "مباشر"
+                        },
+                        "bbcr": {
+                            "alt": "لقطة شاشة لمشروع BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "عرض مركز الاتصالات",
+                            "status": "مباشر"
+                        },
+                        "kenzmedia": {
+                            "alt": "لقطة شاشة لمشروع KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "عرض التسويق الرقمي",
+                            "status": "مباشر"
+                        },
+                        "viadis": {
+                            "alt": "لقطة شاشة لمشروع Viadis",
+                            "name": "Viadis",
+                            "description": "منصة التجارة الإلكترونية",
+                            "status": "مباشر"
+                        },
+                        "anom": {
+                            "alt": "لقطة شاشة لمشروع ANØM",
+                            "name": "ANØM",
+                            "description": "كون من وكلاء الذكاء الاصطناعي",
+                            "status": "مباشر"
+                        },
+                        "deskea": {
+                            "alt": "لقطة شاشة لمنصة Deskea",
+                            "name": "Deskea",
+                            "description": "منصة الدعم والمساعدة",
+                            "status": "مباشر"
+                        },
+                        "modezoe": {
+                            "alt": "لقطة شاشة لمشروع Modezoe",
+                            "name": "Modezoe",
+                            "description": "منصة",
+                            "status": "مباشر"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "الخبرة",
+                    "strong": "المهنية",
+                    "mos": "أشهر",
+                    "keySkills": "المهارات الرئيسية",
+                    "companies": {
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "مدير مشاريع DevOps · دوام كامل · CDI",
+                            "period": "نوفمبر 2025 - الحاضر"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "وكيل خدمة عملاء ومتخصص I.T. · CDD",
+                            "period": "مايو 2025 - أكتوبر 2025",
+                            "bullets": [
+                                "صممت حلاً موحداً لتقنية المعلومات وافق عليه الرئيس لتعزيز الكفاءة التشغيلية.",
+                                "حُزت لقب أفضل وكيل بمعالجة 40 إلى 50 مكالمة ثنائية اللغة يومياً بأحد أقصر متوسطات وقت المعالجة."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "مهندس DevOps · تدريب ANAPEC",
+                            "period": "نوفمبر 2024 - أبريل 2025",
+                            "bullets": [
+                                "رحّلت ونشرت وأدرت بنية تحتية معقدة باستخدام Docker وKubernetes وKubespray (AWS).",
+                                "رفعت أداء البنية التحتية بنسبة 10% وخفضت التكاليف بنسبة 15% بتوزيع محسّن للموارد.",
+                                "سهّلت الإصدارات بنشر blue-green وcanary محققاً 99.9% uptime وتقليل الأخطاء.",
+                                "أمّنت تدفقات الوصول في مجموعات Kubernetes بإدارة أسرار مؤتمتة عبر HashiCorp Vault.",
+                                "طوّرت وأتمتت pipelines في GitLab مع دمج الاختبارات وتحليل الكود والتوفير بـAnsible."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "مهندس DevOps · تدريب التخرج (PFE)",
+                            "period": "فبراير 2024 - أغسطس 2024",
+                            "bullets": [
+                                "قدت البحث والتطوير لإضافة متصفح متعددة مدعومة بالذكاء الاصطناعي.",
+                                "حصلت على 100,000 دولار من برنامج GCP Cloud Computing Startups لعرض مشروع التخرج."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "مهندس DevOps · تدريب Alternance",
+                            "period": "فبراير 2023 - أغسطس 2023",
+                            "bullets": [
+                                "طوّرت منصة نشر سحابي مؤتمتة بإعدادات قابلة للتخصيص لاختبار الثغرات الأمنية.",
+                                "أدرت بنية تحتية AWS وضبطت بيئات Blue Team/Red Team على منصة SecDojo."
+                            ]
+                        }
+                    }
+                },
+                "education": {
+                    "title": "المسار",
+                    "strong": "الأكاديمي",
+                    "schools": {
+                        "Mundiapolis": {
+                            "name": "جامعة مونديابوليس، الدار البيضاء",
+                            "degree": "علوم الحاسوب، مهندس دولة",
+                            "period": "سبت 2021 – أكت 2024"
+                        },
+                        "Transition": {
+                            "name": "—",
+                            "degree": "—",
+                            "period": "—"
+                        },
+                        "ISTA": {
+                            "name": "ISTA – OFPPT NTIC 1، الدار البيضاء",
+                            "degree": "تقني متخصص في تطوير البرمجيات",
+                            "period": "سبت 2019 – يون 2021"
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "الأدوات",
+                    "strong": "الرئيسية",
+                    "items": {
+                        "java": { "name": "Java", "description": "لغة برمجة" },
+                        "spring": { "name": "Spring", "description": "إطار عمل Java" },
+                        "docker": { "name": "Docker", "description": "منصة الحاويات" },
+                        "kubernetes": { "name": "Kubernetes", "description": "تنسيق الحاويات" },
+                        "ansible": { "name": "Ansible", "description": "أتمتة التكوين" },
+                        "terraform": { "name": "Terraform", "description": "البنية التحتية كرمز" },
+                        "typescript": { "name": "TypeScript", "description": "لغة برمجة" },
+                        "reactjs": { "name": "React.js", "description": "مكتبة JavaScript" },
+                        "nextjs": { "name": "Next.js", "description": "إطار عمل React" },
+                        "postgres": { "name": "PostgreSQL", "description": "قاعدة بيانات" },
+                        "supabase": { "name": "Supabase", "description": "منصة تخزين" },
+                        "flyio": { "name": "Fly.io", "description": "منصة استضافة" },
+                        "vercel": { "name": "Vercel", "description": "منصة استضافة" },
+                        "git": { "name": "Git", "description": "التحكم بالإصدارات" },
+                        "github": { "name": "GitHub", "description": "استضافة الكود" },
+                        "gitlab": { "name": "GitLab", "description": "منصة DevOps" },
+                        "jenkins": { "name": "Jenkins", "description": "أتمتة CI/CD" },
+                        "azure": { "name": "Azure", "description": "منصة سحابية" },
+                        "aws": { "name": "AWS", "description": "منصة سحابية" },
+                        "gcp": { "name": "GCP", "description": "منصة سحابية" },
+                        "grafana": { "name": "Grafana", "description": "مراقبة وتحليل" },
+                        "prometheus": { "name": "Prometheus", "description": "مقاييس وتنبيهات" },
+                        "jira": { "name": "Jira", "description": "إدارة المشاريع" },
+                        "confluence": { "name": "Confluence", "description": "توثيق الفريق" },
+                        "superset": { "name": "Apache Superset", "description": "تصور البيانات" },
+                        "powerbi": { "name": "Power BI", "description": "ذكاء الأعمال" },
+                        "odoo": { "name": "Odoo", "description": "ERP مفتوح المصدر" },
+                        "salesforce": { "name": "Salesforce", "description": "منصة CRM" },
+                        "python": { "name": "Python", "description": "لغة برمجة عامة" },
+                        "csharp": { "name": "C#", "description": "لغة Microsoft" },
+                        "flutter": { "name": "Flutter", "description": "واجهة متعددة المنصات" },
+                        "reactnative": { "name": "React Native", "description": "تطوير موبايل متعدد المنصات" },
+                        "vault": { "name": "HashiCorp Vault", "description": "إدارة الأسرار" },
+                        "kafka": { "name": "Apache Kafka", "description": "منصة تدفق الأحداث" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "وسيط رسائل" },
+                        "postman": { "name": "Postman", "description": "أداة اختبار API" },
+                        "selenium": { "name": "Selenium", "description": "أتمتة المتصفح" },
+                        "linux": { "name": "Linux", "description": "نظام تشغيل مفتوح المصدر" },
+                        "bash": { "name": "Bash", "description": "سكريبت الصدفة" },
+                        "trello": { "name": "Trello", "description": "لوحات كانبان" },
+                        "notion": { "name": "Notion", "description": "وثائق وويكي" }
+                    }
+                },
+                "contact": {
+                    "title": "لنعمل",
+                    "strong": "معاً",
+                    "form": {
+                        "legend": "تواصل",
+                        "name": {
+                            "label": "الاسم",
+                            "placeholder": "اسمك"
+                        },
+                        "email": {
+                            "label": "البريد الإلكتروني",
+                            "placeholder": "بريدك@الإلكتروني.com"
+                        },
+                        "message": {
+                            "label": "الرسالة",
+                            "placeholder": "رسالتك"
+                        },
+                        "button": {
+                            "text": "إرسال"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "المنتجات",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "شبكة اجتماعية",
+                "description": "NoteHub منصة مفتوحة المصدر تتيح للمستخدمين إنشاء الملاحظات وتنظيمها ومشاركتها بصيغة .txt. مصممة مع التركيز على البساطة وسهولة الاستخدام، سهلة الاستخدام وبديهية ومفتوحة لمساهمات المجتمع.",
+                "view": "عرض الموقع",
+                "navAriaLabel": "روابط خارجية للمنتج",
+                "roles": {
+                    "ulAriaLabel": "قائمة أدوار ومسؤوليات مشروع NoteHub",
+                    "branding": {
+                        "title": "العلامة التجارية",
+                        "description": "المسؤول عن تصميم الشعار وتحديد استراتيجية العلامة التجارية وتطوير الهوية البصرية للمشروع"
+                    },
+                    "development": {
+                        "title": "التطوير",
+                        "description": "العمل على بناء الواجهة التفاعلية والديناميكية، مع تطبيق الكود النظيف وأفضل ممارسات التطوير"
+                    },
+                    "storage": {
+                        "title": "التخزين",
+                        "description": "نمذجة قاعدة البيانات وتكامل أنظمة تخزين الملاحظات"
+                    },
+                    "security": {
+                        "title": "الأمان",
+                        "description": "تنفيذ المصادقة والتشفير وممارسات حماية البيانات"
+                    },
+                    "messaging": {
+                        "title": "المراسلة",
+                        "description": "تكوين وتنفيذ تدفق البريد الإلكتروني المعاملاتي"
+                    },
+                    "deploy": {
+                        "title": "النشر",
+                        "description": "إعداد خط أنابيب النشر المستمر ومراقبة التطبيق في الإنتاج"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "نظرة عامة على شبكة NoteHub الاجتماعية"
+                    },
+                    "ulAriaLabel": "معرض صور شاشات المنتج",
+                    "1": { "alt": "الشاشة الرئيسية لـ NoteHub" },
+                    "2": { "alt": "صفحة ملف المستخدم في NoteHub" },
+                    "3": { "alt": "خلاصة المستخدم بالملاحظات في NoteHub" },
+                    "4": { "alt": "شاشة إشعارات المستخدم في NoteHub" },
+                    "5": { "alt": "واجهة NoteHub مع تخصيص اللون الأساسي" }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
+        },
+        "tech": {
+            "text": "جميع الحقوق",
+            "name": "محفوظة"
+        }
+    },
+    "notFound": "مسار غير صالح."
+}

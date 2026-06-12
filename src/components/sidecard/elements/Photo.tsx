@@ -9,10 +9,11 @@ export const Photo = (props: React.HTMLAttributes<HTMLElement>) => {
     return (
         <figure
             className={clsx(
-                'overflow-hidden',
                 'relative',
-                'w-[240px] h-[280px] rounded-xl',
+                'w-[240px] h-[280px] insm:w-[264px] insm:h-[308px]',
+                'inlg:mb-16',
             )}
+            style={{ filter: 'drop-shadow(0 0 25px color-mix(in oklch, var(--color-primary) 95%, transparent)) drop-shadow(0 0 55px color-mix(in oklch, var(--color-primary) 60%, transparent)) drop-shadow(0 0 90px color-mix(in oklch, var(--color-primary) 30%, transparent))' }}
             {...props}
         >
             <Image

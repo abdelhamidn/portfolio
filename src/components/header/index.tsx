@@ -1,7 +1,7 @@
 'use client';
 
 import { clsx } from "clsx";
-import { IconFolder, IconHome, IconMail, IconTool, IconUser } from "@tabler/icons-react";
+import { IconBriefcase2, IconCertificate, IconFolder, IconHome, IconMail, IconTool, IconUser } from "@tabler/icons-react";
 import { Link } from "./elements";
 import { useEffect, useMemo, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -19,7 +19,8 @@ export const Header = (props: React.HTMLAttributes<HTMLElement>) => {
         { id: 'profile', hide: true, icon: IconUser, label: t('header.links.profile') },
         { id: 'home', hide: false, icon: IconHome, label: t('header.links.home') },
         { id: 'work', hide: false, icon: IconFolder, label: t('header.links.work') },
-        // { id: 'experience', hide: false, icon: IconBriefcase2, label: t('header.links.experience') },
+        { id: 'experience', hide: false, icon: IconBriefcase2, label: t('header.links.experience') },
+        { id: 'education', hide: false, icon: IconCertificate, label: t('header.links.education') },
         { id: 'tools', hide: false, icon: IconTool, label: t('header.links.tools') },
         { id: 'contact', hide: false, icon: IconMail, label: t('header.links.contact') },
     ], [t]);
@@ -38,7 +39,8 @@ export const Header = (props: React.HTMLAttributes<HTMLElement>) => {
                 },
                 {
                     root: null,
-                    threshold: 0.666
+                    rootMargin: '-50% 0px -50% 0px',
+                    threshold: 0,
                 }
             )
             sections.forEach(s => observer.observe(s));

@@ -82,7 +82,7 @@ export const Dropdown = ({ triggerRef, isDropdownOpen, setIsDropdownOpen, childr
                 'absolute top-0 bottom-auto right-36',
                 'insm:top-auto insm:bottom-0 insm:right-[135px]',
                 'w-[165px] inxs:w-[135px] rounded',
-                'dark:bg-light bg-dark',
+                'dark:bg-light/33 bg-dark/60 backdrop-blur drop-shadow-[0_0_1px_rgba(0,0,0,0.333)]',
                 'transform-gpu origin-top-right insm:origin-bottom-right',
                 'transition-transform duration-333 ease-out',
                 isDropdownOpen

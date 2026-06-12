@@ -7,12 +7,13 @@ export const LanguageContent = (props: React.HTMLAttributes<HTMLDivElement>) => 
             className="p-1 flex flex-col gap-1"
             {...props}
         >
-            <Item lng="pt" />
-            <Item lng="he" />
-            <Item lng="de" />
+            <Item lng="ar" />
             <Item lng="en" />
-            <Item lng="es" />
             <Item lng="fr" />
+            <Item lng="de" />
+            <Item lng="es" />
+            <Item lng="zh" />
+            <Item lng="he" />
         </div>
     )
 

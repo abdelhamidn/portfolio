@@ -53,7 +53,7 @@ export const ColorItem = ({ shade, icon: Icon, ...rest }: ColorItemProps) => {
                 'transition-colors duration-333',
                 isActive
                     ? 'bg-primary/50'
-                    : 'bg-transparent hover:bg-neutral/25 focus-visible:bg-neutral/25',
+                    : 'bg-transparent hover:bg-light/10 focus-visible:bg-light/10',
             )}
             {...rest}
         >

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+>
+  <!-- ==================== MAIN PORTFOLIO ==================== -->
+  <url>
+    <loc>https://abdelhamid.noira.net/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/profile.png</image:loc>
+      <image:title>Abdelhamid NOIRA — DevOps Engineer, AI Automation &amp; R&amp;D PM, Casablanca Morocco</image:title>
+      <image:caption>Portfolio of Abdelhamid NOIRA, DevOps Engineer and AI Automation Specialist based in Casablanca, Morocco</image:caption>
+    </image:image>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="he" href="https://abdelhamid.noira.net/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://abdelhamid.noira.net/"/>
+  </url>
+
+  <!-- ==================== SEO / CONTENT PAGES ==================== -->
+  <url>
+    <loc>https://abdelhamid.noira.net/skills/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/hire-me/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/casablanca/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/morocco/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/sitemap/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- ==================== BLOG ==================== -->
+  <url>
+    <loc>https://abdelhamid.noira.net/blog/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/blog/devops-maroc-2026/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/blog/power-platform-automatisation/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/blog/cloud-infrastructure-maroc/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- ==================== PRODUCTS ==================== -->
+  <url>
+    <loc>https://abdelhamid.noira.net/products/anom/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/anom/hero.png</image:loc>
+      <image:title>ANØM — AI Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/notehub/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/notehub/hero.png</image:loc>
+      <image:title>NoteHub — Social Network by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/mtech/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/mtech/hero.png</image:loc>
+      <image:title>MTech Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/modezoe/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/mncloud/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/dqplugin/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/dqplugin/hero.png</image:loc>
+      <image:title>DQ-Plugin by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/sysmed/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/sysmed/hero.png</image:loc>
+      <image:title>SysMed Medical Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/secdojo/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/secdojo/hero.png</image:loc>
+      <image:title>SecDojo Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/homesense/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/homesense/hero.png</image:loc>
+      <image:title>HomeSense Smart Home by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/frmje/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/frmje/hero.png</image:loc>
+      <image:title>FRMJE Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/bbcr/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/bbcr/hero.png</image:loc>
+      <image:title>BBCR Call Center by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/kenzmedia/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/kenzmedia/hero.png</image:loc>
+      <image:title>KenzMedia Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://abdelhamid.noira.net/products/viadis/</loc>
+    <lastmod>2026-05-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://abdelhamid.noira.net/imgs/products/viadis/hero.png</image:loc>
+      <image:title>Viadis Platform by Abdelhamid NOIRA</image:title>
+    </image:image>
+  </url>
+</urlset>

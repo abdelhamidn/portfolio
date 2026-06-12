@@ -3,15 +3,30 @@
 import { clsx } from "clsx";
 import { IconArrowBadgeUp } from "@tabler/icons-react"
 import { Ripple } from "../misc";
-import { useScrollProgress } from "@/hooks";
+import { useEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 
 export const BackToTop = () => {
 
     const { t } = useTranslation("global");
-    const completion = useScrollProgress();
+    const [isVisible, setIsVisible] = useState(false);
+    const lastY = useRef(0);
 
-    const isHidden = completion < 33;
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentY = window.scrollY;
+            if (currentY === 0) {
+                setIsVisible(false);
+            } else if (currentY > lastY.current) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+            lastY.current = currentY;
+        };
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
 
     const handleBackToTop = (): void => {
         const isReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -21,11 +36,11 @@ export const BackToTop = () => {
 
     return (
         <div
-            aria-hidden={isHidden}
+            aria-hidden={!isVisible}
             className={clsx(
-                'z-800 fixed right-5 insm:right-auto insm:left-5 bottom-5',
+                'z-[800] fixed right-5 inlg:right-auto inlg:left-5 bottom-5',
                 'transition-all duration-333 ease-out',
-                isHidden
+                !isVisible
                     ? 'translate-y-10 opacity-0 invisible pointer-events-none'
                     : 'translate-y-0 opacity-100 visible pointer-events-auto'
             )}
@@ -33,7 +48,7 @@ export const BackToTop = () => {
             <button
                 type="button"
                 aria-label={t('backToTop')}
-                tabIndex={isHidden ? -1 : 0}
+                tabIndex={!isVisible ? -1 : 0}
                 onClick={handleBackToTop}
                 className={clsx(
                     'cursor-pointer outline-offset-4 outline-primary',

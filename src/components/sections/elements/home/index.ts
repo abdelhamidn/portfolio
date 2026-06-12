@@ -4,3 +4,6 @@ export { DT } from './DT';
 export { DD } from './DD';
 export { ToContact } from './ToContact';
 export { ToWork } from './ToWork';
+export { DevTag } from './DevTag';
+export { Terminal } from './Terminal';
+export { FloatingIcons } from './FloatingIcons';

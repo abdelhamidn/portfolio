@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve">
+  <!-- Green background with rounded corners -->
+  <path fill="#006c35" d="M473.655,88.276H38.345C17.167,88.276,0,105.443,0,126.621v258.758c0,21.177,17.167,38.345,38.345,38.345h435.31c21.177,0,38.345-17.167,38.345-38.345V126.621C512,105.443,494.833,88.276,473.655,88.276z"/>
+  <!-- Shahada line 1 -->
+  <text x="256" y="218" font-size="54" fill="white" text-anchor="middle" font-family="Traditional Arabic, Noto Naskh Arabic, serif" direction="rtl" unicode-bidi="bidi-override">لا إله إلا الله</text>
+  <!-- Shahada line 2 -->
+  <text x="256" y="274" font-size="50" fill="white" text-anchor="middle" font-family="Traditional Arabic, Noto Naskh Arabic, serif" direction="rtl" unicode-bidi="bidi-override">محمد رسول الله</text>
+  <!-- Sword blade (points left) -->
+  <polygon fill="white" points="72,340 106,325 396,325 396,351 106,351"/>
+  <!-- Crossguard -->
+  <rect fill="white" x="396" y="310" width="16" height="68" rx="5"/>
+  <!-- Handle grip -->
+  <rect fill="white" x="412" y="328" width="64" height="22" rx="6"/>
+  <!-- Pommel -->
+  <ellipse fill="white" cx="482" cy="339" rx="13" ry="17"/>
+</svg>

@@ -1,0 +1,376 @@
+{
+    "backToTop": "トップへ",
+    "header": {
+        "navAriaLabel": "サイトのメインナビゲーション",
+        "links": {
+            "profile": "プロフィール",
+            "home": "ホーム",
+            "work": "実績",
+            "experience": "経歴",
+            "tools": "ツール",
+            "contact": "お問い合わせ"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "日本国旗",
+                "label": "言語"
+            },
+            "theme": {
+                "label": "テーマ"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "ar": {
+                    "alt": "サウジアラビア国旗",
+                    "label": "アラビア語"
+                },
+                "pt": {
+                    "alt": "ブラジル国旗",
+                    "label": "ポルトガル語"
+                },
+                "he": {
+                    "alt": "イスラエル国旗",
+                    "label": "ヘブライ語"
+                },
+                "de": {
+                    "alt": "ドイツ国旗",
+                    "label": "ドイツ語"
+                },
+                "en": {
+                    "alt": "アメリカ国旗",
+                    "label": "英語"
+                },
+                "es": {
+                    "alt": "スペイン国旗",
+                    "label": "スペイン語"
+                },
+                "fr": {
+                    "alt": "フランス国旗",
+                    "label": "フランス語"
+                },
+                "it": {
+                    "alt": "イタリア国旗",
+                    "label": "イタリア語"
+                },
+                "zh": {
+                    "alt": "中国国旗",
+                    "label": "中国語"
+                },
+                "ru": {
+                    "alt": "ロシア国旗",
+                    "label": "ロシア語"
+                },
+                "ja": {
+                    "alt": "日本国旗",
+                    "label": "日本語"
+                }
+            },
+            "theme": {
+                "dark": "ダーク",
+                "light": "ライト"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "Abdelhamid の写真"
+                    },
+                    "name": "Abdelhamid NOIRA",
+                    "description": "DevOps プロジェクトマネージャー",
+                    "location": "カサブランカ、モロッコ",
+                    "socials": {
+                        "linkedin": "新しいタブで LinkedIn を開く",
+                        "whatsapp": "新しいタブで WhatsApp を開く",
+                        "github": "新しいタブで GitHub を開く",
+                        "twitter": "新しいタブで X を開く",
+                        "reddit": "新しいタブで Reddit を開く"
+                    },
+                    "button": "お問い合わせ"
+                },
+                "home": {
+                    "title": "シンプルから",
+                    "strong": "価値へ",
+                    "description": "プロジェクト管理からソリューションエンジニアリングまで、プレッシャーの下で最高のパフォーマンスを発揮し、すべての側面に360°の視点を保ちます。",
+                    "numbers": {
+                        "years": "年の経験",
+                        "projects": "完成プロジェクト",
+                        "products": "リリース製品"
+                    },
+                    "buttons": {
+                        "contact": "お問い合わせ",
+                        "work": "私の実績"
+                    }
+                },
+                "work": {
+                    "title": "アイデアから",
+                    "strong": "本番環境へ",
+                    "products": {
+                        "notehub": {
+                            "alt": "NoteHub ソーシャルネットワークのスクリーンショット",
+                            "name": "NoteHub",
+                            "description": "ソーシャルネットワーク",
+                            "status": "公開中"
+                        },
+                        "mtech": {
+                            "alt": "MTech プロジェクトのスクリーンショット",
+                            "name": "MTech",
+                            "description": "プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "mncloud": {
+                            "alt": "MNCloud プロジェクトのスクリーンショット",
+                            "name": "MNCloud",
+                            "description": "クラウドプラットフォーム",
+                            "status": "公開中"
+                        },
+                        "dqplugin": {
+                            "alt": "DQ-Plugin プロジェクトのスクリーンショット",
+                            "name": "DQ-Plugin",
+                            "description": "プラグイン",
+                            "status": "公開中"
+                        },
+                        "sysmed": {
+                            "alt": "SysMed プロジェクトのスクリーンショット",
+                            "name": "SysMed",
+                            "description": "医療プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "secdojo": {
+                            "alt": "SecDojo プロジェクトのスクリーンショット",
+                            "name": "SecDojo",
+                            "description": "プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "homesense": {
+                            "alt": "HomeSense プロジェクトのスクリーンショット",
+                            "name": "HomeSense",
+                            "description": "スマートホーム",
+                            "status": "公開中"
+                        },
+                        "frmje": {
+                            "alt": "FRMJE プロジェクトのスクリーンショット",
+                            "name": "FRMJE",
+                            "description": "プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "bbcr": {
+                            "alt": "BBCR コールセンタープロジェクトのスクリーンショット",
+                            "name": "BBCR Call Center",
+                            "description": "コールセンター",
+                            "status": "公開中"
+                        },
+                        "kenzmedia": {
+                            "alt": "KenzMedia プロジェクトのスクリーンショット",
+                            "name": "KenzMedia",
+                            "description": "メディアプラットフォーム",
+                            "status": "公開中"
+                        },
+                        "viadis": {
+                            "alt": "Viadis プロジェクトのスクリーンショット",
+                            "name": "Viadis",
+                            "description": "プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "anom": {
+                            "alt": "ANØM プロジェクトのスクリーンショット",
+                            "name": "ANØM",
+                            "description": "AI プラットフォーム",
+                            "status": "公開中"
+                        },
+                        "modezoe": {
+                            "alt": "Modezoe プロジェクトのスクリーンショット",
+                            "name": "Modezoe",
+                            "description": "プラットフォーム",
+                            "status": "公開中"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "職務",
+                    "strong": "経歴",
+                    "mos": "ヶ月",
+                    "keySkills": "主要スキル",
+                    "companies": {
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "DevOps プロジェクトマネージャー · 正社員",
+                            "period": "2025年11月 - 現在"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "IT 運用プロジェクトマネージャー · CDD",
+                            "period": "2025年5月 - 2025年10月",
+                            "bullets": [
+                                "コンタクトセンターの業務効率を最適化するために、経営陣に承認された統一ITソリューションを設計しました。",
+                                "チーム横断のワークフローとプロセスを自動化し、生産性を測定可能な形で向上させました。"
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "DevOps エンジニア · ANAPEC インターンシップ",
+                            "period": "2024年11月 - 2025年4月",
+                            "bullets": [
+                                "DeskEaのアーキテクチャをDockerからKubernetesにブルーグリーン・カナリーデプロイで移行し、AWS上のGitLab CI/CDを自動化しました。",
+                                "本番インフラを保護・スケールするためのリアルタイム監視と自動化されたシークレット管理をデプロイしました。"
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "DevOps エンジニア · 卒業論文インターンシップ (PFE)",
+                            "period": "2024年2月 - 2024年7月",
+                            "bullets": [
+                                "Googleの公式プロモーション動画でPFEプロジェクトを発表し、GCP Cloud Programから$100Kの資金を獲得しました。",
+                                "スクレイピング、翻訳、要約をチャットボットインターフェースで自動化するフルスタックAI対応クロスブラウザ拡張機能をゼロから構築しました。",
+                                "Apache Kafkaによるリアルタイム通知システムとApache Solrによる動的クラウド検索を設計し、GCPとAzureに統合しました。",
+                                "Chrome拡張機能のR&Dをリード — 技術文書を作成し、ベストプラクティスについてチーム研修を実施しました。"
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "DevOps エンジニア · 見習い",
+                            "period": "2023年2月 - 2023年7月",
+                            "bullets": [
+                                "Terraform、Ansible、Kubernetesを使用して、侵害シナリオ分析のための自動化されたクラウドデプロイメントとペネトレーションテストプラットフォームを構築しました。",
+                                "OWASP ZAP、Metasploit、ELKスタックを統合して、包括的な脆弱性評価とリアルタイムセキュリティ監視を実現しました。"
+                            ]
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "主な",
+                    "strong": "ツール",
+                    "items": {
+                        "java": { "name": "Java", "description": "プログラミング言語" },
+                        "spring": { "name": "Spring", "description": "Java フレームワーク" },
+                        "docker": { "name": "Docker", "description": "コンテナプラットフォーム" },
+                        "kubernetes": { "name": "Kubernetes", "description": "コンテナオーケストレーション" },
+                        "ansible": { "name": "Ansible", "description": "構成自動化" },
+                        "terraform": { "name": "Terraform", "description": "Infrastructure as Code" },
+                        "typescript": { "name": "TypeScript", "description": "プログラミング言語" },
+                        "reactjs": { "name": "React.js", "description": "JavaScript ライブラリ" },
+                        "nextjs": { "name": "Next.js", "description": "React フレームワーク" },
+                        "postgres": { "name": "PostgreSQL", "description": "データベース" },
+                        "supabase": { "name": "Supabase", "description": "ストレージプラットフォーム" },
+                        "flyio": { "name": "Fly.io", "description": "ホスティングプラットフォーム" },
+                        "vercel": { "name": "Vercel", "description": "ホスティングプラットフォーム" },
+                        "git": { "name": "Git", "description": "バージョン管理" },
+                        "github": { "name": "GitHub", "description": "コードホスティング" },
+                        "gitlab": { "name": "GitLab", "description": "DevOps プラットフォーム" },
+                        "jenkins": { "name": "Jenkins", "description": "CI/CD 自動化" },
+                        "azure": { "name": "Azure", "description": "クラウドプラットフォーム" },
+                        "aws": { "name": "AWS", "description": "クラウドプラットフォーム" },
+                        "gcp": { "name": "GCP", "description": "クラウドプラットフォーム" },
+                        "grafana": { "name": "Grafana", "description": "監視と分析" },
+                        "prometheus": { "name": "Prometheus", "description": "メトリクスとアラート" },
+                        "jira": { "name": "Jira", "description": "プロジェクト管理" },
+                        "confluence": { "name": "Confluence", "description": "チームドキュメント" },
+                        "superset": { "name": "Apache Superset", "description": "データ可視化" },
+                        "powerbi": { "name": "Power BI", "description": "ビジネスインテリジェンス" },
+                        "odoo": { "name": "Odoo", "description": "オープンソース ERP" },
+                        "salesforce": { "name": "Salesforce", "description": "CRM プラットフォーム" },
+                        "python": { "name": "Python", "description": "汎用言語" },
+                        "csharp": { "name": "C#", "description": "Microsoft 言語" },
+                        "flutter": { "name": "Flutter", "description": "クロスプラットフォーム UI" },
+                        "reactnative": { "name": "React Native", "description": "クロスプラットフォームモバイル" },
+                        "vault": { "name": "HashiCorp Vault", "description": "シークレット管理" },
+                        "kafka": { "name": "Apache Kafka", "description": "イベントストリーミング" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "メッセージブローカー" },
+                        "postman": { "name": "Postman", "description": "API テストツール" },
+                        "selenium": { "name": "Selenium", "description": "ブラウザ自動化" },
+                        "linux": { "name": "Linux", "description": "オープンソース OS" },
+                        "bash": { "name": "Bash", "description": "シェルスクリプト" },
+                        "trello": { "name": "Trello", "description": "かんばんボード" },
+                        "notion": { "name": "Notion", "description": "ドキュメントとウィキ" }
+                    }
+                },
+                "contact": {
+                    "title": "一緒に",
+                    "strong": "働きましょう",
+                    "form": {
+                        "legend": "お問い合わせ",
+                        "name": {
+                            "label": "名前",
+                            "placeholder": "お名前"
+                        },
+                        "email": {
+                            "label": "メール",
+                            "placeholder": "your@email.com"
+                        },
+                        "message": {
+                            "label": "メッセージ",
+                            "placeholder": "メッセージをどうぞ"
+                        },
+                        "button": {
+                            "text": "送信"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "製品",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "ソーシャルネットワーク",
+                "description": "NoteHub は、ユーザーが .txt 形式でノートを作成、整理、共有できるオープンソースプラットフォームです。シンプルさと使いやすさに重点を置いて設計されており、直感的でコミュニティへの貢献にオープンです。",
+                "view": "ライブを見る",
+                "navAriaLabel": "製品の外部リンク",
+                "roles": {
+                    "ulAriaLabel": "NoteHub プロジェクトの役割と責任リスト",
+                    "branding": {
+                        "title": "ブランディング",
+                        "description": "ロゴのデザイン、ブランド戦略の定義、プロジェクトのビジュアルアイデンティティの開発を担当"
+                    },
+                    "development": {
+                        "title": "開発",
+                        "description": "クリーンコードと開発ベストプラクティスを適用しながら、インタラクティブで動的なインターフェースの構築に取り組む"
+                    },
+                    "storage": {
+                        "title": "ストレージ",
+                        "description": "データベースモデリングとノートのストレージシステムの統合"
+                    },
+                    "security": {
+                        "title": "セキュリティ",
+                        "description": "認証、暗号化、データ保護のプラクティスを実装"
+                    },
+                    "messaging": {
+                        "title": "メッセージング",
+                        "description": "トランザクションメールフローの設定と実装"
+                    },
+                    "deploy": {
+                        "title": "デプロイ",
+                        "description": "継続的デプロイメントパイプラインのセットアップと本番環境でのアプリケーション監視"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "NoteHub ソーシャルネットワークの概要"
+                    },
+                    "ulAriaLabel": "製品画面の画像ギャラリー",
+                    "1": { "alt": "NoteHub ホーム画面" },
+                    "2": { "alt": "NoteHub ユーザープロフィールページ" },
+                    "3": { "alt": "NoteHub ユーザーノートフィード" },
+                    "4": { "alt": "NoteHub ユーザー通知画面" },
+                    "5": { "alt": "NoteHub メインカラーカスタマイズインターフェース" }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
+        },
+        "tech": {
+            "text": "全ての権利",
+            "name": "保有"
+        }
+    },
+    "notFound": "無効なルート。"
+}

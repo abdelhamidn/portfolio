@@ -20,6 +20,10 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
                     </div>
                 </main>
                 <Footer />
+                <div
+                    aria-hidden="true"
+                    className="inlg:h-28 dark:bg-dark bg-light transition-colors duration-666"
+                />
             </LanguageProvider>
         </PreferencesProvider>
     )

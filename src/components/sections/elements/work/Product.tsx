@@ -4,7 +4,7 @@ export const Product = (props: React.LiHTMLAttributes<HTMLLIElement>) => (
     <li
         className={clsx(
             'group overflow-hidden',
-            'relative w-fit rounded-xl',
+            'relative w-full inlg:w-fit rounded-xl',
             'dark:bg-light/5 bg-dark/5',
             'transition-colors duration-333',
         )}

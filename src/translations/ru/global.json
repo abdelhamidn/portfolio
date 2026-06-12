@@ -1,0 +1,376 @@
+{
+    "backToTop": "Наверх",
+    "header": {
+        "navAriaLabel": "Основная навигация сайта",
+        "links": {
+            "profile": "Обо мне",
+            "home": "Главная",
+            "work": "Работы",
+            "experience": "Опыт",
+            "tools": "Инструменты",
+            "contact": "Контакт"
+        }
+    },
+    "aside": {
+        "buttons": {
+            "language": {
+                "alt": "Флаг России",
+                "label": "Язык"
+            },
+            "theme": {
+                "label": "Тема"
+            }
+        },
+        "dropdowns": {
+            "language": {
+                "ar": {
+                    "alt": "Флаг Саудовской Аравии",
+                    "label": "Арабский"
+                },
+                "pt": {
+                    "alt": "Флаг Бразилии",
+                    "label": "Португальский"
+                },
+                "he": {
+                    "alt": "Флаг Израиля",
+                    "label": "Иврит"
+                },
+                "de": {
+                    "alt": "Флаг Германии",
+                    "label": "Немецкий"
+                },
+                "en": {
+                    "alt": "Флаг США",
+                    "label": "Английский"
+                },
+                "es": {
+                    "alt": "Флаг Испании",
+                    "label": "Испанский"
+                },
+                "fr": {
+                    "alt": "Флаг Франции",
+                    "label": "Французский"
+                },
+                "it": {
+                    "alt": "Флаг Италии",
+                    "label": "Итальянский"
+                },
+                "zh": {
+                    "alt": "Флаг Китая",
+                    "label": "Китайский"
+                },
+                "ru": {
+                    "alt": "Флаг России",
+                    "label": "Русский"
+                },
+                "ja": {
+                    "alt": "Флаг Японии",
+                    "label": "Японский"
+                }
+            },
+            "theme": {
+                "dark": "Тёмная",
+                "light": "Светлая"
+            }
+        }
+    },
+    "pages": {
+        "main": {
+            "sections": {
+                "profile": {
+                    "photo": {
+                        "alt": "Фото Абдельхамида"
+                    },
+                    "name": "Abdelhamid NOIRA",
+                    "description": "DevOps Менеджер проектов",
+                    "location": "Касабланка, Марокко",
+                    "socials": {
+                        "linkedin": "Открыть LinkedIn в новой вкладке",
+                        "whatsapp": "Открыть WhatsApp в новой вкладке",
+                        "github": "Открыть GitHub в новой вкладке",
+                        "twitter": "Открыть X в новой вкладке",
+                        "reddit": "Открыть Reddit в новой вкладке"
+                    },
+                    "button": "Связаться"
+                },
+                "home": {
+                    "title": "ОТ ПРОСТОГО К",
+                    "strong": "ЦЕННОМУ",
+                    "description": "От управления проектами до разработки решений — я лучше всего работаю под давлением и в сжатые сроки, сохраняя взгляд на 360° на все аспекты.",
+                    "numbers": {
+                        "years": "ГОД ОПЫТА",
+                        "projects": "ЗАВЕРШЁННЫХ ПРОЕКТОВ",
+                        "products": "ЗАПУЩЕННЫХ ПРОДУКТОВ"
+                    },
+                    "buttons": {
+                        "contact": "Связаться",
+                        "work": "Мои работы"
+                    }
+                },
+                "work": {
+                    "title": "ОТ ИДЕИ ДО",
+                    "strong": "ПРОИЗВОДСТВА",
+                    "products": {
+                        "notehub": {
+                            "alt": "Скриншот социальной сети NoteHub",
+                            "name": "NoteHub",
+                            "description": "Социальная сеть",
+                            "status": "Запущен"
+                        },
+                        "mtech": {
+                            "alt": "Скриншот проекта MTech",
+                            "name": "MTech",
+                            "description": "Платформа",
+                            "status": "Запущен"
+                        },
+                        "mncloud": {
+                            "alt": "Скриншот проекта MNCloud",
+                            "name": "MNCloud",
+                            "description": "Облачная платформа",
+                            "status": "Запущен"
+                        },
+                        "dqplugin": {
+                            "alt": "Скриншот проекта DQ-Plugin",
+                            "name": "DQ-Plugin",
+                            "description": "Плагин",
+                            "status": "Запущен"
+                        },
+                        "sysmed": {
+                            "alt": "Скриншот проекта SysMed",
+                            "name": "SysMed",
+                            "description": "Медицинская платформа",
+                            "status": "Запущен"
+                        },
+                        "secdojo": {
+                            "alt": "Скриншот проекта SecDojo",
+                            "name": "SecDojo",
+                            "description": "Платформа",
+                            "status": "Запущен"
+                        },
+                        "homesense": {
+                            "alt": "Скриншот проекта HomeSense",
+                            "name": "HomeSense",
+                            "description": "Умный дом",
+                            "status": "Запущен"
+                        },
+                        "frmje": {
+                            "alt": "Скриншот проекта FRMJE",
+                            "name": "FRMJE",
+                            "description": "Платформа",
+                            "status": "Запущен"
+                        },
+                        "bbcr": {
+                            "alt": "Скриншот проекта BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "Колл-центр",
+                            "status": "Запущен"
+                        },
+                        "kenzmedia": {
+                            "alt": "Скриншот проекта KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "Медиа-платформа",
+                            "status": "Запущен"
+                        },
+                        "viadis": {
+                            "alt": "Скриншот проекта Viadis",
+                            "name": "Viadis",
+                            "description": "Платформа",
+                            "status": "Запущен"
+                        },
+                        "anom": {
+                            "alt": "Скриншот проекта ANØM",
+                            "name": "ANØM",
+                            "description": "AI платформа",
+                            "status": "Запущен"
+                        },
+                        "modezoe": {
+                            "alt": "Скриншот проекта Modezoe",
+                            "name": "Modezoe",
+                            "description": "Платформа",
+                            "status": "Запущен"
+                        }
+                    }
+                },
+                "experience": {
+                    "title": "ПРОФЕССИОНАЛЬНЫЙ",
+                    "strong": "ОПЫТ",
+                    "mos": "мес",
+                    "keySkills": "Ключевые навыки",
+                    "companies": {
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "DevOps Менеджер проектов · Полная занятость",
+                            "period": "Ноя 2025 - Настоящее время"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "Менеджер проектов IT-операций · CDD",
+                            "period": "Май 2025 - Окт 2025",
+                            "bullets": [
+                                "Разработал единое IT-решение, одобренное руководством, для оптимизации операционной эффективности колл-центра.",
+                                "Автоматизировал межкомандные рабочие процессы и процедуры для измеримого повышения производительности."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "DevOps Инженер · Стажировка ANAPEC",
+                            "period": "Ноя 2024 - Апр 2025",
+                            "bullets": [
+                                "Мигрировал архитектуру Deskea с Docker на Kubernetes с сине-зелёным и канареечным деплоем, а также автоматизированным GitLab CI/CD на AWS.",
+                                "Развернул мониторинг в реальном времени и автоматизированное управление секретами для защиты и масштабирования производственной инфраструктуры."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "DevOps Инженер · Дипломная стажировка (PFE)",
+                            "period": "Фев 2024 - Июл 2024",
+                            "bullets": [
+                                "Получил финансирование в размере $100К от GCP Cloud Program, представив проект PFE в официальном рекламном видео Google.",
+                                "Создал с нуля полностековое AI-расширение для браузера, автоматизирующее сбор данных, перевод и резюмирование в интерфейсе чат-бота.",
+                                "Спроектировал систему уведомлений в реальном времени с Apache Kafka и динамический облачный поиск с Apache Solr, интегрированный в GCP и Azure.",
+                                "Руководил R&D расширений Chrome — подготовил техническую документацию и провёл обучение команды по лучшим практикам."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "DevOps Инженер · Ученичество",
+                            "period": "Фев 2023 - Июл 2023",
+                            "bullets": [
+                                "Создал автоматизированную платформу облачного развёртывания и тестирования на проникновение для анализа сценариев взлома с использованием Terraform, Ansible и Kubernetes.",
+                                "Интегрировал OWASP ZAP, Metasploit и ELK Stack для комплексной оценки уязвимостей и мониторинга безопасности в реальном времени."
+                            ]
+                        }
+                    }
+                },
+                "tools": {
+                    "title": "ОСНОВНЫЕ",
+                    "strong": "ИНСТРУМЕНТЫ",
+                    "items": {
+                        "java": { "name": "Java", "description": "Язык программирования" },
+                        "spring": { "name": "Spring", "description": "Java фреймворк" },
+                        "docker": { "name": "Docker", "description": "Платформа контейнеров" },
+                        "kubernetes": { "name": "Kubernetes", "description": "Оркестрация контейнеров" },
+                        "ansible": { "name": "Ansible", "description": "Автоматизация конфигурации" },
+                        "terraform": { "name": "Terraform", "description": "Infrastructure as Code" },
+                        "typescript": { "name": "TypeScript", "description": "Язык программирования" },
+                        "reactjs": { "name": "React.js", "description": "Библиотека JavaScript" },
+                        "nextjs": { "name": "Next.js", "description": "React фреймворк" },
+                        "postgres": { "name": "PostgreSQL", "description": "База данных" },
+                        "supabase": { "name": "Supabase", "description": "Платформа хранения" },
+                        "flyio": { "name": "Fly.io", "description": "Платформа хостинга" },
+                        "vercel": { "name": "Vercel", "description": "Платформа хостинга" },
+                        "git": { "name": "Git", "description": "Контроль версий" },
+                        "github": { "name": "GitHub", "description": "Хостинг кода" },
+                        "gitlab": { "name": "GitLab", "description": "DevOps платформа" },
+                        "jenkins": { "name": "Jenkins", "description": "Автоматизация CI/CD" },
+                        "azure": { "name": "Azure", "description": "Облачная платформа" },
+                        "aws": { "name": "AWS", "description": "Облачная платформа" },
+                        "gcp": { "name": "GCP", "description": "Облачная платформа" },
+                        "grafana": { "name": "Grafana", "description": "Мониторинг и аналитика" },
+                        "prometheus": { "name": "Prometheus", "description": "Метрики и алертинг" },
+                        "jira": { "name": "Jira", "description": "Управление проектами" },
+                        "confluence": { "name": "Confluence", "description": "Документация команды" },
+                        "superset": { "name": "Apache Superset", "description": "Визуализация данных" },
+                        "powerbi": { "name": "Power BI", "description": "Бизнес-аналитика" },
+                        "odoo": { "name": "Odoo", "description": "Open-source ERP" },
+                        "salesforce": { "name": "Salesforce", "description": "CRM платформа" },
+                        "python": { "name": "Python", "description": "Язык общего назначения" },
+                        "csharp": { "name": "C#", "description": "Язык Microsoft" },
+                        "flutter": { "name": "Flutter", "description": "Кросс-платформенный UI" },
+                        "reactnative": { "name": "React Native", "description": "Кросс-платформенный мобайл" },
+                        "vault": { "name": "HashiCorp Vault", "description": "Управление секретами" },
+                        "kafka": { "name": "Apache Kafka", "description": "Платформа потоков событий" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "Брокер сообщений" },
+                        "postman": { "name": "Postman", "description": "Инструмент тестирования API" },
+                        "selenium": { "name": "Selenium", "description": "Автоматизация браузера" },
+                        "linux": { "name": "Linux", "description": "Open-source ОС" },
+                        "bash": { "name": "Bash", "description": "Скриптинг оболочки" },
+                        "trello": { "name": "Trello", "description": "Канбан-доски" },
+                        "notion": { "name": "Notion", "description": "Документы и вики" }
+                    }
+                },
+                "contact": {
+                    "title": "ДАВАЙТЕ РАБОТАТЬ",
+                    "strong": "ВМЕСТЕ",
+                    "form": {
+                        "legend": "Контакт",
+                        "name": {
+                            "label": "Имя",
+                            "placeholder": "Ваше имя"
+                        },
+                        "email": {
+                            "label": "Email",
+                            "placeholder": "your@email.com"
+                        },
+                        "message": {
+                            "label": "Сообщение",
+                            "placeholder": "Ваше сообщение"
+                        },
+                        "button": {
+                            "text": "Отправить"
+                        }
+                    }
+                }
+            }
+        },
+        "products": {
+            "goHome": "Продукты",
+            "notehub": {
+                "title": "NoteHub",
+                "subtitle": "Социальная сеть",
+                "description": "NoteHub — это платформа с открытым исходным кодом, которая позволяет пользователям создавать, организовывать и делиться заметками в формате .txt. Разработана с акцентом на простоту и удобство использования.",
+                "view": "Перейти на сайт",
+                "navAriaLabel": "Внешние ссылки для продукта",
+                "roles": {
+                    "ulAriaLabel": "Список ролей и обязанностей проекта NoteHub",
+                    "branding": {
+                        "title": "Брендинг",
+                        "description": "Отвечал за разработку логотипа, определение бренд-стратегии и создание визуальной идентичности проекта"
+                    },
+                    "development": {
+                        "title": "Разработка",
+                        "description": "Работал над созданием интерактивного и динамичного интерфейса, применяя чистый код и лучшие практики разработки"
+                    },
+                    "storage": {
+                        "title": "Хранение",
+                        "description": "Моделирование базы данных и интеграция систем хранения заметок"
+                    },
+                    "security": {
+                        "title": "Безопасность",
+                        "description": "Реализовал аутентификацию, шифрование и практики защиты данных"
+                    },
+                    "messaging": {
+                        "title": "Сообщения",
+                        "description": "Настроил и реализовал транзакционный поток email"
+                    },
+                    "deploy": {
+                        "title": "Деплой",
+                        "description": "Настроил конвейер непрерывного развёртывания и мониторил приложение в production"
+                    }
+                },
+                "images": {
+                    "hero": {
+                        "alt": "Обзор социальной сети NoteHub"
+                    },
+                    "ulAriaLabel": "Галерея изображений экранов продукта",
+                    "1": { "alt": "Главный экран NoteHub" },
+                    "2": { "alt": "Страница профиля пользователя в NoteHub" },
+                    "3": { "alt": "Лента пользователя с заметками в NoteHub" },
+                    "4": { "alt": "Экран уведомлений пользователя в NoteHub" },
+                    "5": { "alt": "Интерфейс NoteHub с настройкой основного цвета" }
+                }
+            }
+        }
+    },
+    "footer": {
+        "author": {
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
+        },
+        "tech": {
+            "text": "Все права",
+            "name": "защищены"
+        }
+    },
+    "notFound": "Неверный маршрут."
+}

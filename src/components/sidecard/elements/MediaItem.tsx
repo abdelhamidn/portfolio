@@ -22,8 +22,8 @@ export const MediaItem = ({ icon: Icon, href, ...rest }: MediaItemProps) => (
             {...rest}
         >
             <Icon
-                size={24}
                 className={clsx(
+                    'w-6 h-6 inlg:w-8 inlg:h-8',
                     'dark:stroke-primary stroke-primary',
                     'transition-all duration-666',
                     'group-hover:dark:stroke-light group-hover:stroke-light',

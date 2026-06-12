@@ -45,7 +45,7 @@ export const Item = ({ lng, ...rest }: ItemProps) => {
                 'transition-colors duration-333',
                 isActive
                     ? 'bg-primary/50'
-                    : 'bg-transparent hover:bg-neutral/25 focus-visible:bg-neutral/25',
+                    : 'bg-transparent hover:bg-light/10 focus-visible:bg-light/10',
             )}
             {...rest}
         >
@@ -62,9 +62,9 @@ export const Item = ({ lng, ...rest }: ItemProps) => {
             <span
                 className={clsx(
                     'pl-2',
-                    'border-l dark:border-dark/25 border-light/25',
+                    'border-l border-light/25',
                     'font-mono font-semibold text-sm insm:text-xs',
-                    'dark:text-dark text-light',
+                    'text-light',
                 )}
             >
                 {t(`aside.dropdowns.language.${lng}.label`)}

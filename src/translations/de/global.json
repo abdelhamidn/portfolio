@@ -7,6 +7,7 @@
             "home": "Start",
             "work": "Arbeit",
             "experience": "Erfahrung",
+            "education": "Bildung",
             "tools": "Tools",
             "contact": "Kontakt"
         }
@@ -23,29 +24,33 @@
         },
         "dropdowns": {
             "language": {
-                "pt": {
-                    "alt": "Flagge von Brasilien",
-                    "label": "Portugiesisch"
+                "ar": {
+                    "alt": "Flagge von Saudi-Arabien",
+                    "label": "Arabisch"
                 },
-                "he": {
-                    "alt": "Flagge von Israel",
-                    "label": "Hebräisch"
+                "en": {
+                    "alt": "Flagge von USA",
+                    "label": "Englisch"
+                },
+                "fr": {
+                    "alt": "Flagge von Frankreich",
+                    "label": "Französisch"
                 },
                 "de": {
                     "alt": "Flagge von Deutschland",
                     "label": "Deutsch"
                 },
-                "en": {
-                    "alt": "Flagge von Großbritannien/USA",
-                    "label": "Englisch"
-                },
                 "es": {
                     "alt": "Flagge von Spanien",
                     "label": "Spanisch"
                 },
-                "fr": {
-                    "alt": "Flagge von Frankreich",
-                    "label": "Französisch"
+                "zh": {
+                    "alt": "Flagge von China",
+                    "label": "Chinesisch"
+                },
+                "he": {
+                    "alt": "Flagge von Israel",
+                    "label": "Hebräisch"
                 }
             },
             "theme": {
@@ -59,22 +64,24 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "Foto von Lucas"
+                        "alt": "Foto von Abdelhamid"
                     },
-                    "name": "Abdelhamid Noira",
-                    "description": "Full-Stack-Entwickler",
-                    "location": "Süd-Minas, Brasilien",
+                    "name": "Abdelhamid NOIRA",
+                    "description": "DevOps Projektmanager",
+                    "location": "Casablanca, Marokko",
                     "socials": {
                         "linkedin": "LinkedIn in neuem Tab öffnen",
                         "whatsapp": "WhatsApp in neuem Tab öffnen",
-                        "github": "GitHub in neuem Tab öffnen"
+                        "github": "GitHub in neuem Tab öffnen",
+                        "twitter": "X in neuem Tab öffnen",
+                        "reddit": "Reddit in neuem Tab öffnen"
                     },
                     "button": "Lass uns quatschen"
                 },
                 "home": {
                     "title": "Vom Einfachen",
                     "strong": "zum Bedeutenden",
-                    "description": "Ich baue intuitive und funktionale Interfaces, die dem Produkt echten Mehrwert bringen.",
+                    "description": "Erfahren in Cloud-Engineering, DevOps und Projektleitung. Ich entwerfe robuste Systeme, führe interdisziplinäre Teams und liefere präzise Ergebnisse selbst unter extremem Druck.",
                     "numbers": {
                         "years": "Jahre Erfahrung",
                         "projects": "abgeschlossene Projekte",
@@ -86,26 +93,165 @@
                     }
                 },
                 "work": {
-                    "title": "Die",
-                    "strong": "aktuellsten Produkte",
+                    "title": "Von der Idee",
+                    "strong": "zur Produktion",
                     "products": {
                         "notehub": {
                             "alt": "Screenshot des sozialen Netzwerks NoteHub",
                             "name": "NoteHub",
                             "description": "Soziales Netzwerk",
                             "status": "Live"
+                        },
+                        "mtech": {
+                            "alt": "Screenshot des Projekts MTech",
+                            "name": "MTech",
+                            "description": "RAG Multimodale Chatbots",
+                            "status": "Live"
+                        },
+                        "mncloud": {
+                            "alt": "Screenshot des Projekts MNCloud",
+                            "name": "MNCloud",
+                            "description": "Persönliche Private Cloud",
+                            "status": "Live"
+                        },
+                        "dqplugin": {
+                            "alt": "Screenshot des Projekts DeepLinq Plugin",
+                            "name": "DeepLinq Plugin",
+                            "description": "KI-gestützte Cross-Browser-Erweiterung",
+                            "status": "Live"
+                        },
+                        "sysmed": {
+                            "alt": "Screenshot des Projekts SysMed",
+                            "name": "SysMed",
+                            "description": "Plattformübergreifende Gesundheits-App",
+                            "status": "Live"
+                        },
+                        "secdojo": {
+                            "alt": "Screenshot des Projekts SecDojo",
+                            "name": "SecDojo",
+                            "description": "Cybersicherheitsplattform",
+                            "status": "Live"
+                        },
+                        "homesense": {
+                            "alt": "Screenshot des Projekts HomeSense",
+                            "name": "HomeSense",
+                            "description": "Smart-Home-Präsentation",
+                            "status": "Live"
+                        },
+                        "frmje": {
+                            "alt": "Screenshot des Projekts FRMJE",
+                            "name": "FRMJE",
+                            "description": "WordPress-Präsentation",
+                            "status": "Live"
+                        },
+                        "bbcr": {
+                            "alt": "Screenshot des Projekts BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "Callcenter-Präsentation",
+                            "status": "Live"
+                        },
+                        "kenzmedia": {
+                            "alt": "Screenshot des Projekts KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "Digital-Marketing-Präsentation",
+                            "status": "Live"
+                        },
+                        "viadis": {
+                            "alt": "Screenshot des Projekts Viadis",
+                            "name": "Viadis",
+                            "description": "E-Commerce-Plattform",
+                            "status": "Live"
+                        },
+                        "anom": {
+                            "alt": "Screenshot des Projekts ANØM",
+                            "name": "ANØM",
+                            "description": "KI-Agenten-Universum",
+                            "status": "Live"
+                        },
+                        "deskea": {
+                            "alt": "Screenshot der Deskea-Plattform",
+                            "name": "Deskea",
+                            "description": "Support & Helpdesk-Plattform",
+                            "status": "Live"
+                        },
+                        "modezoe": {
+                            "alt": "Screenshot des Projekts Modezoe",
+                            "name": "Modezoe",
+                            "description": "Plattform",
+                            "status": "Live"
                         }
                     }
                 },
                 "experience": {
-                    "title": "Jahre",
+                    "title": "Berufliche",
                     "strong": "Erfahrung",
+                    "mos": "Mon.",
+                    "keySkills": "Kernkompetenzen",
                     "companies": {
-                        "NoteHub": {
-                            "name": "NoteHub",
-                            "description": "Gründer der gesamten App; verantwortlich für Architektur, Security, Entwicklung, Produktion, Messaging und Wartung.",
-                            "role": "Full-Stack-Entwickler",
-                            "period": "2024 - heute"
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "DevOps Projektmanager · Vollzeit · CDI",
+                            "period": "Nov 2025 - Heute"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "Kundenservice-Agent & I.T.-Spezialist · CDD",
+                            "period": "Mai 2025 - Okt 2025",
+                            "bullets": [
+                                "Einheitliche IT-Lösung entwickelt, vom Präsidenten genehmigt, zur Steigerung der betrieblichen Effizienz.",
+                                "Als leistungsstärkster Agent ausgezeichnet mit täglich 40 bis 50 zweisprachigen Anrufen und einer der kürzesten Bearbeitungszeiten."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "DevOps Ingenieur · ANAPEC-Praktikum",
+                            "period": "Nov 2024 - Apr 2025",
+                            "bullets": [
+                                "Komplexe Architektur mit Docker, Kubernetes und Kubespray (AWS) migriert, bereitgestellt und verwaltet.",
+                                "Infrastrukturleistung um 10% gesteigert und Kosten um 15% durch optimierte Ressourcenzuteilung gesenkt.",
+                                "Releases mit Blue-Green- und Canary-Deployments optimiert und 99,9% Verfügbarkeit bei weniger Fehlern erreicht.",
+                                "Zugriffsflüsse in Kubernetes-Clustern mit automatischem Secret-Management via HashiCorp Vault gesichert.",
+                                "GitLab-Pipelines mit Tests, Code-Analyse und Ansible-Provisioning entwickelt und automatisiert."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "DevOps Ingenieur · Abschlusspraktikum (PFE)",
+                            "period": "Feb 2024 - Aug 2024",
+                            "bullets": [
+                                "Forschung und Entwicklung einer KI-gestützten Cross-Browser-Erweiterung geleitet.",
+                                "100.000 $ vom GCP Cloud Computing Startups Program für die Präsentation meines Abschlussprojekts gewonnen."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "DevOps Ingenieur · Alternance-Praktikum",
+                            "period": "Feb 2023 - Aug 2023",
+                            "bullets": [
+                                "Automatisierte Cloud-Deployment-Plattform mit anpassbaren Konfigurationen für Schwachstellentests entwickelt.",
+                                "AWS-Infrastruktur verwaltet und Blue-Team/Red-Team-Umgebungen auf der SecDojo-Plattform konfiguriert."
+                            ]
+                        }
+                    }
+                },
+                "education": {
+                    "title": "AKADEMISCHER",
+                    "strong": "WERDEGANG",
+                    "schools": {
+                        "Mundiapolis": {
+                            "name": "Université Mundiapolis, Casablanca",
+                            "degree": "Informatik, Staatsexamen (State Engineer)",
+                            "period": "Sep 2021 – Okt 2024"
+                        },
+                        "Transition": {
+                            "name": "—",
+                            "degree": "—",
+                            "period": "—"
+                        },
+                        "ISTA": {
+                            "name": "ISTA – OFPPT NTIC 1, Casablanca",
+                            "degree": "Spezialisierter Techniker für Softwareentwicklung",
+                            "period": "Sep 2019 – Jun 2021"
                         }
                     }
                 },
@@ -124,6 +270,18 @@
                         "docker": {
                             "name": "Docker",
                             "description": "Container-Plattform"
+                        },
+                        "kubernetes": {
+                            "name": "Kubernetes",
+                            "description": "Container-Orchestrierung"
+                        },
+                        "ansible": {
+                            "name": "Ansible",
+                            "description": "Konfigurationsautomatisierung"
+                        },
+                        "terraform": {
+                            "name": "Terraform",
+                            "description": "Infrastructure as Code"
                         },
                         "typescript": {
                             "name": "TypeScript",
@@ -152,7 +310,35 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "Hosting-Plattform"
-                        }
+                        },
+                        "git": { "name": "Git", "description": "Versionskontrolle" },
+                        "github": { "name": "GitHub", "description": "Code-Hosting" },
+                        "gitlab": { "name": "GitLab", "description": "DevOps-Plattform" },
+                        "jenkins": { "name": "Jenkins", "description": "CI/CD-Automatisierung" },
+                        "azure": { "name": "Azure", "description": "Cloud-Plattform" },
+                        "aws": { "name": "AWS", "description": "Cloud-Plattform" },
+                        "gcp": { "name": "GCP", "description": "Cloud-Plattform" },
+                        "grafana": { "name": "Grafana", "description": "Monitoring & Analytik" },
+                        "prometheus": { "name": "Prometheus", "description": "Metriken & Alerting" },
+                        "jira": { "name": "Jira", "description": "Projekttracking" },
+                        "confluence": { "name": "Confluence", "description": "Team-Dokumentation" },
+                        "superset": { "name": "Apache Superset", "description": "Datenvisualisierung" },
+                        "powerbi": { "name": "Power BI", "description": "Business Intelligence" },
+                        "odoo": { "name": "Odoo", "description": "Open-Source-ERP" },
+                        "salesforce": { "name": "Salesforce", "description": "CRM-Plattform" },
+                        "python": { "name": "Python", "description": "Universelle Programmiersprache" },
+                        "csharp": { "name": "C#", "description": "Microsoft-Sprache" },
+                        "flutter": { "name": "Flutter", "description": "Plattformübergreifendes UI-Toolkit" },
+                        "reactnative": { "name": "React Native", "description": "Plattformübergreifend mobil" },
+                        "vault": { "name": "HashiCorp Vault", "description": "Secrets-Management" },
+                        "kafka": { "name": "Apache Kafka", "description": "Event-Streaming-Plattform" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "Message-Broker" },
+                        "postman": { "name": "Postman", "description": "API-Testwerkzeug" },
+                        "selenium": { "name": "Selenium", "description": "Browser-Automatisierung" },
+                        "linux": { "name": "Linux", "description": "Open-Source-Betriebssystem" },
+                        "bash": { "name": "Bash", "description": "Shell-Scripting" },
+                        "trello": { "name": "Trello", "description": "Kanban-Boards" },
+                        "notion": { "name": "Notion", "description": "Docs & Wikis" }
                     }
                 },
                 "contact": {
@@ -184,7 +370,7 @@
             "notehub": {
                 "title": "NoteHub",
                 "subtitle": "Soziales Netzwerk",
-                "description": "NoteHub ist eine Open-Source-Plattform zum Erstellen, Organisieren und Teilen von Notizen im .txt-Format. Konzipiert mit Fokus auf Einfachheit und Benutzerfreundlichkeit — leicht zu verwenden und offen für Beiträge aus der Community.",
+                "description": "NoteHub ist eine Open-Source-Plattform zum Erstellen, Organisieren und Teilen von Notizen im .txt-Format. Konzipiert mit Fokus auf Einfachheit und Benutzerfreundlichkeit, leicht zu verwenden und offen für Beiträge aus der Community.",
                 "view": "Website ansehen",
                 "navAriaLabel": "Externe Links, die mit dem Produkt verbunden sind",
                 "roles": {
@@ -240,12 +426,12 @@
     },
     "footer": {
         "author": {
-            "text": "Erstellt von",
-            "name": "Lucas"
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
         },
         "tech": {
-            "text": "Angetrieben von",
-            "name": "Next.js"
+            "text": "Alle Rechte",
+            "name": "vorbehalten"
         }
     },
     "notFound": "Ungültige Route."

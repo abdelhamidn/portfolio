@@ -46,6 +46,26 @@
                 "fr": {
                     "alt": "Bandeira da França",
                     "label": "Francês"
+                },
+                "ar": {
+                    "alt": "Bandeira da Arábia Saudita",
+                    "label": "Árabe"
+                },
+                "it": {
+                    "alt": "Bandeira da Itália",
+                    "label": "Italiano"
+                },
+                "zh": {
+                    "alt": "Bandeira da China",
+                    "label": "Chinês"
+                },
+                "ru": {
+                    "alt": "Bandeira da Rússia",
+                    "label": "Russo"
+                },
+                "ja": {
+                    "alt": "Bandeira do Japão",
+                    "label": "Japonês"
                 }
             },
             "theme": {
@@ -59,22 +79,24 @@
             "sections": {
                 "profile": {
                     "photo": {
-                        "alt": "Foto do Lucas"
+                        "alt": "Foto de Abdelhamid"
                     },
-                    "name": "Abdelhamid Noira",
-                    "description": "Desenvolvedor Full Stack",
-                    "location": "Sul de Minas, Brasil",
+                    "name": "Abdelhamid NOIRA",
+                    "description": "Gestor de Projetos DevOps",
+                    "location": "Casablanca, Marrocos",
                     "socials": {
                         "linkedin": "Abrir LinkedIn em nova aba",
                         "whatsapp": "Abrir WhatsApp em nova aba",
-                        "github": "Abrir GitHub em nova aba"
+                        "github": "Abrir GitHub em nova aba",
+                        "twitter": "Abrir X em nova aba",
+                        "reddit": "Abrir Reddit em nova aba"
                     },
                     "button": "Chama"
                 },
                 "home": {
                     "title": "DO SIMPLES AO",
                     "strong": "VALOROSO",
-                    "description": "Criando interfaces intuitivas e funcionais, agregando valor à qualidade do produto.",
+                    "description": "Da gestão de projetos à engenharia de soluções, tenho o meu melhor desempenho quando a pressão aumenta e os prazos são curtos, mantendo uma visão de 360° sobre todos os aspetos.",
                     "numbers": {
                         "years": "ANO DE EXPERIÊNCIA",
                         "projects": "PROJETOS COMPLETOS",
@@ -86,26 +108,137 @@
                     }
                 },
                 "work": {
-                    "title": "PRODUTOS MAIS",
-                    "strong": "RECENTES",
+                    "title": "DA IDEIA",
+                    "strong": "À PRODUÇÃO",
                     "products": {
                         "notehub": {
                             "alt": "Foto da rede social NoteHub",
                             "name": "NoteHub",
                             "description": "Rede Social",
                             "status": "Ao vivo"
+                        },
+                        "mtech": {
+                            "alt": "Captura do projeto MTech",
+                            "name": "MTech",
+                            "description": "Plataforma",
+                            "status": "Ao vivo"
+                        },
+                        "mncloud": {
+                            "alt": "Captura do projeto MNCloud",
+                            "name": "MNCloud",
+                            "description": "Plataforma Cloud",
+                            "status": "Ao vivo"
+                        },
+                        "dqplugin": {
+                            "alt": "Captura do projeto DQ-Plugin",
+                            "name": "DQ-Plugin",
+                            "description": "Plugin",
+                            "status": "Ao vivo"
+                        },
+                        "sysmed": {
+                            "alt": "Captura do projeto SysMed",
+                            "name": "SysMed",
+                            "description": "Plataforma Médica",
+                            "status": "Ao vivo"
+                        },
+                        "secdojo": {
+                            "alt": "Captura do projeto SecDojo",
+                            "name": "SecDojo",
+                            "description": "Plataforma",
+                            "status": "Ao vivo"
+                        },
+                        "homesense": {
+                            "alt": "Captura do projeto HomeSense",
+                            "name": "HomeSense",
+                            "description": "Casa Inteligente",
+                            "status": "Ao vivo"
+                        },
+                        "frmje": {
+                            "alt": "Captura do projeto FRMJE",
+                            "name": "FRMJE",
+                            "description": "Plataforma",
+                            "status": "Ao vivo"
+                        },
+                        "bbcr": {
+                            "alt": "Captura do projeto BBCR Call Center",
+                            "name": "BBCR Call Center",
+                            "description": "Central de atendimento",
+                            "status": "Ao vivo"
+                        },
+                        "kenzmedia": {
+                            "alt": "Captura do projeto KenzMedia",
+                            "name": "KenzMedia",
+                            "description": "Plataforma de Mídia",
+                            "status": "Ao vivo"
+                        },
+                        "viadis": {
+                            "alt": "Captura do projeto Viadis",
+                            "name": "Viadis",
+                            "description": "Plataforma",
+                            "status": "Ao vivo"
+                        },
+                        "anom": {
+                            "alt": "Captura do projeto ANØM",
+                            "name": "ANØM",
+                            "description": "Plataforma de IA",
+                            "status": "Ao vivo"
+                        },
+                        "modezoe": {
+                            "alt": "Captura do projeto Modezoe",
+                            "name": "Modezoe",
+                            "description": "Plataforma",
+                            "status": "Ao vivo"
                         }
                     }
                 },
                 "experience": {
-                    "title": "ANOS DE",
-                    "strong": "EXPERIÊNCIA",
+                    "title": "EXPERIÊNCIA",
+                    "strong": "PROFISSIONAL",
+                    "mos": "meses",
+                    "keySkills": "Competências-chave",
                     "companies": {
-                        "NoteHub": {
-                            "name": "NoteHub",
-                            "description": "Fundador da aplicação por completa, responsável por toda a arquitetura, segurança, desenvolvimento, produção, mensageria e manutenção.",
-                            "role": "Desenvolvedor Full Stack",
-                            "period": "2024 - Present"
+                        "BeYs": {
+                            "name": "Be Ys Outsourcing Services Maroc",
+                            "role": "Gestor de Projetos DevOps · Tempo integral",
+                            "period": "Nov 2025 - Presente"
+                        },
+                        "IOSolutions": {
+                            "name": "IO Solutions Contact Center",
+                            "role": "Gestor de Projetos I.T. · CDD",
+                            "period": "Mai 2025 - Out 2025",
+                            "bullets": [
+                                "Projetei uma solução IT unificada aprovada pela liderança para otimizar a eficiência operacional do contact center.",
+                                "Automatizei workflows multi-equipe e otimizei processos para aumentar a produtividade de forma mensurável."
+                            ]
+                        },
+                        "Tersea": {
+                            "name": "Tersea Groupe",
+                            "role": "Engenheiro DevOps · Estágio ANAPEC",
+                            "period": "Nov 2024 - Abr 2025",
+                            "bullets": [
+                                "Migrei a arquitetura do Deskea de Docker para Kubernetes com deploys blue-green & canary e pipelines GitLab CI/CD automatizados na AWS.",
+                                "Implementei monitoramento em tempo real e gestão automatizada de segredos para proteger e escalar a infraestrutura de produção."
+                            ]
+                        },
+                        "BRAMS": {
+                            "name": "Brams Technologies",
+                            "role": "Engenheiro DevOps · Estágio PFE",
+                            "period": "Fev 2024 - Jul 2024",
+                            "bullets": [
+                                "Conquistei $100K em financiamento pelo GCP Cloud Program apresentando o projeto em um vídeo promocional oficial do Google.",
+                                "Desenvolvi do zero uma extensão cross-browser full-stack com IA — automatizando scraping, tradução & sumarização em uma interface chatbot.",
+                                "Arquitetei um sistema de notificações em tempo real com Apache Kafka e busca cloud com Apache Solr, integrados no GCP & Azure.",
+                                "Liderai a P&D sobre extensões Chrome — produzindo documentação técnica e treinando a equipe nas melhores práticas."
+                            ]
+                        },
+                        "SEKERA": {
+                            "name": "Sekera Services",
+                            "role": "Engenheiro DevOps · Estágio em Alternância",
+                            "period": "Fev 2023 - Jul 2023",
+                            "bullets": [
+                                "Construí uma plataforma automatizada de deploys cloud e testes de penetração para análise de cenários de violação com Terraform, Ansible e Kubernetes.",
+                                "Integrei OWASP ZAP, Metasploit e a stack ELK para avaliações de vulnerabilidades e monitoramento de segurança em tempo real."
+                            ]
                         }
                     }
                 },
@@ -124,6 +257,18 @@
                         "docker": {
                             "name": "Docker",
                             "description": "Plataforma de contêineres"
+                        },
+                        "kubernetes": {
+                            "name": "Kubernetes",
+                            "description": "Orquestração de contêineres"
+                        },
+                        "ansible": {
+                            "name": "Ansible",
+                            "description": "Automação de configuração"
+                        },
+                        "terraform": {
+                            "name": "Terraform",
+                            "description": "Infraestrutura como código"
                         },
                         "typescript": {
                             "name": "TypeScript",
@@ -152,7 +297,35 @@
                         "vercel": {
                             "name": "Vercel",
                             "description": "Plataforma de hospedagem"
-                        }
+                        },
+                        "git": { "name": "Git", "description": "Controle de versão" },
+                        "github": { "name": "GitHub", "description": "Hospedagem de código" },
+                        "gitlab": { "name": "GitLab", "description": "Plataforma DevOps" },
+                        "jenkins": { "name": "Jenkins", "description": "Automação CI/CD" },
+                        "azure": { "name": "Azure", "description": "Plataforma cloud" },
+                        "aws": { "name": "AWS", "description": "Plataforma cloud" },
+                        "gcp": { "name": "GCP", "description": "Plataforma cloud" },
+                        "grafana": { "name": "Grafana", "description": "Monitoramento e análise" },
+                        "prometheus": { "name": "Prometheus", "description": "Métricas e alertas" },
+                        "jira": { "name": "Jira", "description": "Rastreamento de projetos" },
+                        "confluence": { "name": "Confluence", "description": "Documentação da equipe" },
+                        "superset": { "name": "Apache Superset", "description": "Visualização de dados" },
+                        "powerbi": { "name": "Power BI", "description": "Inteligência empresarial" },
+                        "odoo": { "name": "Odoo", "description": "ERP open-source" },
+                        "salesforce": { "name": "Salesforce", "description": "Plataforma CRM" },
+                        "python": { "name": "Python", "description": "Linguagem de propósito geral" },
+                        "csharp": { "name": "C#", "description": "Linguagem Microsoft" },
+                        "flutter": { "name": "Flutter", "description": "Kit de UI multiplataforma" },
+                        "reactnative": { "name": "React Native", "description": "Mobile multiplataforma" },
+                        "vault": { "name": "HashiCorp Vault", "description": "Gerenciamento de segredos" },
+                        "kafka": { "name": "Apache Kafka", "description": "Plataforma de streaming de eventos" },
+                        "rabbitmq": { "name": "RabbitMQ", "description": "Broker de mensagens" },
+                        "postman": { "name": "Postman", "description": "Ferramenta de testes de API" },
+                        "selenium": { "name": "Selenium", "description": "Automação de navegadores" },
+                        "linux": { "name": "Linux", "description": "Sistema operacional open-source" },
+                        "bash": { "name": "Bash", "description": "Scripting de shell" },
+                        "trello": { "name": "Trello", "description": "Quadros Kanban" },
+                        "notion": { "name": "Notion", "description": "Docs & wikis" }
                     }
                 },
                 "contact": {
@@ -240,12 +413,12 @@
     },
     "footer": {
         "author": {
-            "text": "Feito por",
-            "name": "Lucas"
+            "text": "© 2026",
+            "name": "Abdelhamid NOIRA"
         },
         "tech": {
-            "text": "Desenvolvido com",
-            "name": "Next.js"
+            "text": "Todos os direitos",
+            "name": "reservados"
         }
     },
     "notFound": "Rota inválida."

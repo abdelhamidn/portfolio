@@ -17,19 +17,26 @@ export const PreferencesProvider = ({ children }: { children: React.ReactNode })
     const setter = useCallback((data: Partial<Preferences>) => {
         const prefs: Preferences = {
             shouldUseDarkTheme: data.shouldUseDarkTheme ?? preferences.shouldUseDarkTheme ?? false,
-            useLanguage: data.useLanguage ?? preferences.useLanguage ?? 'pt',
+            useLanguage: data.useLanguage ?? preferences.useLanguage ?? 'fr',
             useColors: {
-                primary: data.useColors?.primary ?? preferences.useColors.primary ?? 'oklch(0.606 0.25 292.717)',
-                secondary: data.useColors?.secondary ?? preferences.useColors.secondary ?? 'oklch(0.38 0.189 293.745)',
+                primary: data.useColors?.primary ?? preferences.useColors?.primary ?? 'oklch(0.606 0.25 292.717)',
+                secondary: data.useColors?.secondary ?? preferences.useColors?.secondary ?? 'oklch(0.38 0.189 293.745)',
             }
         }
         localStorage.setItem('preferences', JSON.stringify(prefs));
         return setPreferences(prefs);
     }, [preferences])
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         storePreferences();
-        setPreferences(JSON.parse(localStorage.getItem('preferences') ?? '{}'));
+        const raw = localStorage.getItem('preferences');
+        const stored = JSON.parse(raw && raw.trim() ? raw : '{}');
+        if (!stored.useLanguage || stored.useLanguage === 'pt') {
+            setter({ useLanguage: 'fr' });
+        } else {
+            setPreferences(stored);
+        }
     }, [])
 
     useEffect(() => {

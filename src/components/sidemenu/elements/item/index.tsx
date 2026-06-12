@@ -11,7 +11,7 @@ type ItemProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
 }
 
 export const Item = forwardRef<HTMLButtonElement, ItemProps>(({ figure, icon: Icon, label, isDropdownOpen, setIsDropdownOpen, children, ...rest }, ref) => (
-    <li className="group relative min-w-[135px] insm:min-w-[127px] min-h-[33px] rounded-full">
+    <li className="group relative min-w-[135px] insm:min-w-[127px] min-h-[33px] rounded-full dark:bg-light/33 bg-dark/33 backdrop-blur drop-shadow-[0_0_1px_rgba(0,0,0,0.333)]">
         <button
             ref={ref}
             type="button"
@@ -36,10 +36,10 @@ export const Item = forwardRef<HTMLButtonElement, ItemProps>(({ figure, icon: Ic
                     aria-hidden="true"
                     size={25}
                     className={clsx(
-                        'dark:fill-dark fill-light',
-                        'transition-colors duration-1000',
-                        'group-hover:fill-light!',
-                        'group-active:fill-light!',
+                        'fill-light',
+                        'transition-colors duration-333',
+                        'group-hover:fill-light/60!',
+                        'group-active:fill-light/60!',
                         isDropdownOpen && 'fill-light!',
                     )}
                 />
@@ -48,12 +48,12 @@ export const Item = forwardRef<HTMLButtonElement, ItemProps>(({ figure, icon: Ic
             }
             <span
                 className={clsx(
-                    'pl-2 border-l dark:border-dark/25 border-light/25',
+                    'pl-2 border-l border-light/25',
                     'font-mono font-semibold text-sm insm:text-xs',
-                    'dark:text-dark text-light',
-                    'transition-colors duration-1000',
-                    'group-hover:text-light!',
-                    'group-active:text-light!',
+                    'text-light',
+                    'transition-colors duration-333',
+                    'group-hover:text-light/60!',
+                    'group-active:text-light/60!',
                     isDropdownOpen && 'text-light!',
                 )}
             >
